@@ -1,0 +1,8 @@
+Source: https://datascience.uchicago.edu/people/jeong-yoon-lee-phd/
+Title: Jeong-Yoon Lee, PhD
+
+# Jeong-Yoon Lee, PhD
+Adjunct Assistant Professor
+Jeong-Yoon Lee is a Sr. Manager in Applied Science at Uber, where he leads research and development in personalization, targeting, optimization, and causal inference for marketing. Jeong is also leading the CausalML project, an open-source Python package that provides a suite of causal machine-learning algorithms based on recent research. He has co-organized the causal machine learning tutorial and workshops (CMLKDD) at KDD since 2021.
+As an avid participant in machine learning competitions, Jeong won the KDD Cup in 2012 and 2015 and was ranked in the top 10 at Kaggle in 2015. He also served as the KDD Cup co-chair in 2018. Prior to joining Uber, Jeong was a Sr. Research Scientist at Netflix, a Sr. Applied ML Scientist at Microsoft, and the Chief Data Scientist at Conversion Logic.
+Jeong received his Ph.D. in Computer Science from the University of Southern California and his B.S. in Electrical Engineering from Seoul National University.

@@ -1,0 +1,27 @@
+Source: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/
+Title: International Students
+
+# International Students
+Build skills in AI, machine learning, and data engineering alongside a global cohort, while preparing for careers in tech, healthcare, consulting, and more!
+
+## Applying as an International Student
+International students are an important part of the MS in Applied Data Science community, bringing global perspectives into every classroom.
+The program offers different formats:
+- Only the full-time, in-person program is eligible for student visa sponsorship
+- The online program is open to international students worldwide, but it does not provide visa sponsorship
+Not sure which option is right for you? Our admissions team can help you think through your next steps.
+
+## Information for International Applicants
+Application timing depends on your visa status.
+If you require a new student visa (F-1): You must apply by the international application deadline. For the Autumn 2026 entry, that deadline has passed. Applicants who require a new visa should plan to apply for a future term.
+If you are currently studying in the U.S. and transferring your SEVIS record: You may still be eligible to apply by the final application deadline.
+
+## Application Requirements
+
+### English language proficiency
+Applicants to the Master’s in Applied Data Science program who do not meet the English Language Proficiency criteria must submit proof of English language proficiency.
+Minimum scores for the Master’s in Applied Data Science program: TOEFL: 102 (prior requirement) or 5 (current requirement; no subscore requirement); IELTS, 7 (no subscore requirement).
+Please review our waiver policy here.
+
+## Hear From International Students
+Watch as international students share their unique journeys and experiences in the MS in Applied Data Science program at the University of Chicago.

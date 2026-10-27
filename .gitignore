@@ -1,0 +1,23 @@
+# Secrets -- never commit API keys (copy .env.example to .env instead)
+.env
+
+# Vector store: rebuilt by the notebook from data/pages.jsonl
+chroma_db/
+
+# Course materials (everyone already has the brief)
+*.pdf
+
+# Python / Jupyter / tooling
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.deepeval/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

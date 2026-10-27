@@ -1,0 +1,6 @@
+Source: https://datascience.uchicago.edu/people/mike-anderson/
+Title: Mike Anderson
+
+# Mike Anderson
+Adjunct Assistant Professor
+Mike is a Staff Data Scientist at Google. His role involves consulting with large advertisers to help develop data science solutions to their marketing-related challenges. Before joining Google, Mike was a Senior Data Scientist at Nielsen, analyzing smart TV data. Mike has a PhD in Astrophysics from the University of Michigan. He also worked as a postdoctoral researcher at the Max-Planck Institute for Astrophysics in Germany before moving to Data Science.

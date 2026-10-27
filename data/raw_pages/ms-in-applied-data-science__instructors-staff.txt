@@ -1,0 +1,300 @@
+Source: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff/
+Title: Faculty, Instructors, Staff
+
+# Faculty, Instructors, Staff
+As a Master’s in Applied Data Science student, you will learn from faculty and instructors who are public- and private-sector leaders in emerging AI/AutoML technologie s. They are drawn from technologically savvy businesses in the Chicagoland region–one of the country’s top hubs for data-intensive industries and forward-thinking companies. Our program leadership and staff support the success of our diverse student body and maintain our curricular excellence in the evolving field of data science.
+
+### Faculty, Instructors
+
+### Greg Green, PhD
+Senior Instructional Professor; Senior Director of the DSI Polsky Transform Initiative; Senior Director of DSI Executive and Professional Education
+
+### Arnab Bose, PhD
+Senior Instructional Professor and Faculty Director of the MS in Applied AI Program
+
+### Francisco Azeredo, PhD
+Associate Clinical Professor
+
+### Anil D Chaturvedi, PhD
+Associate Clinical Professor
+
+### Nick Kadochnikov
+Adjunct Associate Professor
+
+### Ming-Long Lam, PhD
+Associate Clinical Professor
+
+### Roger Moore, MBA
+Associate Clinical Professor
+
+### Utku Pamuksuz, PhD
+Adjunct Professor; Co-Founder Inference Analytics
+
+### Donald Patchell, MSE, MBA
+Associate Clinical Professor
+
+### Jonathan Williams, MS
+Assistant Clinical Professor
+
+### Shaddy Abado, PhD
+Adjunct Associate Professor; Lead Data Scientist at Ulta Beauty
+
+### Gizem Agar, PhD
+Assistant Clinical Professor, Analytics & Transformation Leader
+
+### Mike Anderson
+Adjunct Assistant Professor
+
+### Steve Barry
+Instructor; Head of Technology and Data, Savant Wealth Management
+
+### Shree Bharadwaj, MS
+Adjunct Associate Professor; Director and Innovation Fellow at West Monroe
+
+### Sanjay Boddhu, PhD
+Instructor; Capstone and Advisor, Head of UniMap Automation at HERE Technologies
+
+### Fouad Bousetouane, PhD
+Adjunct Associate Professor; Co-Founder and Chief AI Officer at InterspectAI Inc.
+
+### Shahbaz Chaudhary, MA
+Adjunct Associate Professor; Manager of Data Science, Charles Schwab
+
+### Michael Colella, MS, MA, MS
+Adjunct Assistant Professor, Head of AI at Monster Energy
+
+### Sebastien Donadio, PhD
+Adjunct Professor; Chief Technology Officer, TradAir
+
+### Jason Edgar
+Adjunct Assistant Professor
+
+### Ignas Grabauskas
+Instructor; Data Scientist at Simpson Thacher
+
+### Batu Gundogdu, PhD
+Associate Clinical Professor
+
+### Justin Kurland, PhD
+Adjunct Associate Professor; Vice President, Tech Fellow in the Engineering Division at Goldman Sachs
+
+### Jeong-Yoon Lee, PhD
+Adjunct Assistant Professor
+
+### Jan Mrozowski, PhD
+Adjunct Assistant Professor
+
+### John Navarro
+Adjunct Assistant Professor
+
+### Danny Ng, PhD
+Instructor; Director of Machine Learning at Expedia Group
+
+### Ashish Pujari
+Adjunct Associate Professor
+
+### Jenny Schmidt
+Instructor; Analytics Talent Development Specialist
+
+### Jeanette Shutay, PhD
+Assistant Clinical Professor; President & Chief Data Officer at Shutay Consulting
+
+### Fan Yang, PhD
+Instructor; VP at Federal Home Loan Bank of Chicago
+
+### Dmitri Sidorov, PhD
+Adjunct Assistant Professor; Principal Data Scientist at Abbott
+
+### Igor Yakushin, PhD
+Adjunct Assistant Professor; Applied Scientist
+Greg Green is Senior Instructional Professor and Director of the MS in Applied Data Science Program at the University of Chicago, and Senior Director for Industrial Partnerships and Strategy at the Data Science Institute. Dr. Green helps the University of Chicago professional data science students learn to apply data science to solve complex industry problems with greater impact.
+Dr. Green is reshaping the content and approaches used to educate the next generation of professional data scientists at the University of Chicago. Additionally, Greg is designing new, creative offerings more deeply connected to MS and PhD research programs in Data Science, Computer Science, Statistics, and Financial Mathematics. New course offerings developed and launched since joining the University of Chicago include an innovative approach to “Leadership in Data Science and Artificial Intelligence”, “Consulting in Data Science” and “Your Career in Data Science”.
+Throughout his professional career, Greg has used his expertise in digital strategies, business analytics, and new product development to drive rapid revenue growth and accelerate business transformation. His previous work bringing innovation to an academic environment included authoring a Marketing Analytics course, designing a pre-requisite applied statistics course and serving as a lecturer for Marketing Analytics at Northwestern University.
+Greg’s industry roles include Chief Analytics Officer at Harland Clarke Holdings, Director at Google, EVP/Managing Director at Publicis Groupe, and Analytics Practice Lead at PwC. Greg’s patented cloud-based media analytics platform was highlighted in Harvard Business Review and Fast Company.
+Greg holds a Doctor of Philosophy in Mathematics from Claremont Graduate School and a Master of Science in Statistics from Michigan State University. Born in Owosso, Michigan, Greg is married to Jill, an artist, and their adult children include two more artists, a teacher, and an engineer. Greg and his family enjoy snowboarding, snow/water skiing and live theatre—as well as good food and friendships. Their passion for the environment is reflected in a love for Lake Michigan where they like to spend as much of the summer as possible.
+Dr. Arnab Bose is a Senior Instructional Professor and Faculty Director of the MS in Applied AI program at the University of Chicago Data Science Institute. He is also the Chief Scientific Officer at UST AlphaAI.
+He has over two and a half decades of industry experience and enjoys working with data to influence behavioral outcomes.
+As an entrepreneur, Arnab had a startup focused on industrial applications of AI in healthcare, finance, semiconductor, and retail that he successfully exited post-acquisition. He is an advisor to AI companies and the Chief Scientific Officer at UST AlphaAI. At the University of Chicago, Arnab teaches Machine Learning, Machine Learning Operations, Time Series Analysis and Forecasting, and Data Science in Healthcare.
+Arnab has published a book, book chapters, and numerous peer-reviewed conference & journal papers. He enjoys public speaking and has given talks in the US, Australia, Saudi Arabia, and India. He is an avid traveler and has visited the 7 wonders of the world. Arnab holds MS and PhD degrees from the University of Southern California and a BTech from the Indian Institute of Technology, Kharagpur, India.
+Master Data Science While You Work
+Francisco Azeredo is a financial economist and decision scientist with over 15 years of experience working for leading financial and consulting firms in the Chicago area.
+He is presently an Associate Clinical Professor at the University of Chicago. P reviously, he was the senior vice-president at Northern Trust, working on research and development of quantitative strategies for fixed income and equities at Northern Trust Asset Management.
+Prior to joining asset management, Francisco led strategic and quantitative driven projects across Northern Trust’s three major business units. His experience included leading analytics projects on foreign exchange global revenue forecast, wealth management client deposit modeling, wealth management digital client behavior modeling, treasury deposit modeling, derivatives and hedging solutions and foreign exchange high-frequency algorithmic execution cost. He also conducted research on foreign exchange algorithmic execution methods and securities lending price modeling.
+His prior work experience includes credit risk, operational risk and macroeconomic modeling for stress testing and capital planning, analysis of complex financial instruments, interest rate modeling, and econometric and predictive analysis for litigation matters involving financial institutions and multinational corporations.
+His research in financial economics was recognized by leading economists in the Handbook of the Equity Risk Premium, Intermediate Financial Theory, and an encyclopedia of behavior economics. He currently teaches reinforcement learning, statistical analysis, non-linear statistical modeling, and optimization methods in the MS in Applied Data Science program at the University of Chicago and has five years of prior experience teaching at Northwestern University, the University of California, Santa Barbara and Riverside. He holds a PhD in Economics from the University of California, Santa Barbara.
+Anil Chaturvedi has over 35 years of professional experience at companies such as AT&T Bell Labs, Kraft Foods, Capital One, and Accenture. He has provided consulting services to Bank of America, Fannie Mae, Johnson & Johnson, and Procter & Gamble. His general research interests include enhancing business value using data science. He has patented and published advanced algorithms for predictive modeling, market segmentation, new product development, product positioning, customer loyalty, consumer promotion mix optimization, and brand strategy. He earned his PhD from Rutgers University and an MBA from IIM Ahmedabad, India.
+Nick Kadochnikov is an Adjunct Associate Professor at University of Chicago Data Science Institute as well as head of Artificial Intelligence and Advanced Technology group at Harbor Global, where he is at the forefront of creating cutting-edge Generative AI tools and advanced tech solutions. These innovative capabilities assist law firms and corporate legal teams in enhancing their service quality, making legal processes more streamlined, accessible, and requiring less manual effort.
+Before joining Harbor, Nick served as a Director of AI at William Blair, where he oversaw the development of advanced AI/ML capabilities and intelligent workflows to transform Investment Banking processes. Prior to that, Nick dedicated 20 years at IBM, successfully crafting AI solutions for a wide range of enterprise functions such as supply-chain, sales, marketing, finance, procurement, and legal. In his final role at IBM Watson Health Consulting, his main focus was on utilizing AI to address healthcare challenges, enhancing patient outcomes, elevating population health, and optimizing the efficiency of clinical trials.
+I am a full-stack data scientist, software developer, and educator with diverse backgrounds. I have thirty years of experience in applying data science in commercial software development, property and casualty insurance, and retail financial service industries. I specialize in algorithm development with an emphasis on statistical learning, machine learning, and artificial intelligence.
+I co-published the book “Using Data Analysis to Improve Student Learning: Toward 100% Proficiency” in 2006. I published the e-book “A Practitioner’s Guide to Machine Learning” in 2020.
+I received my Ph.D. in statistics from the University of Chicago.
+Roger is an Associate Clinical Professor at the University of Chicago. He teaches Leadership Skills in the Master of Science in Applied Data Science program. Previously Roger was VP, Analytics and Customer Operations at Entytle. Entytle provides a SaaS tool supporting customer installed base automated sales with AI and machine learning. Roger has also worked at Gartner, Sagence, Booz & Co, PwC, Diamond Management & Technology Partners and the Boston Consulting Group. Roger is active in the data, analytics and technology communities in the Chicago area. He attends many MeetUps, roundtables and industry events. Roger founded and chairs the Chicago Booth Big Data & Analytics Roundtable.
+Dr. Pamuksuz, a professor of AI, specializes in applied mathematics, machine/deep learning, responsible and generative AI. He has contributed to various analytics journals, including IEEE Transactions on Artificial Intelligence, and has shared his insights at several national and international conferences.
+Since joining the University of Chicago as a faculty member in 2018, Dr. Pamuksuz has taught a range of subjects, including data mining, machine learning, and linear & non-linear models, along with more specialized areas like AI-data science for leaders and Generative AI Research. His supervision of capstone theses has often centered on computer vision and natural language processing.
+In the professional realm, Dr. Pamuksuz has an impressive record. He has led data science teams at several Fortune 500 companies, provided expert consultancy in architecting cloud-based machine learning solutions, and co-founded Inference Analytics in 2018. Under his leadership, Inference Analytics was recognized in 2023 as one of the top Machine Learning Companies in Illinois, marking a significant milestone in healthcare analytics in Chicago.
+Dr. Pamuksuz’s academic path has taken him through some of Illinois’ most prestigious universities. He completed his MS in Computer Engineering/Science at Northwestern University and went on to earn his Ph.D. from UIUC. Today, he contributes his expertise as a faculty member at the University of Chicago. This journey, connecting three significant academic institutions, reflects a strong foundation and dedication to his field and a deep engagement with the state’s rich educational landscape. Outside of his professional endeavors, Dr. Pamuksuz is enthusiastic about hackathons, not only participating in several but also organizing them twice annually since 2020. His involvement has yielded notable success in various data challenges. As a sports fan, he follows Champions League Soccer, supporting Galatasaray, and enjoys engaging in basketball and volleyball during his leisure time. He also enjoys smooth/gypsy jazz where you can find him on Wednesdays in his favorite place Green Mill.
+Over more than 30 years, Don has served in a variety of assignments that utilize research and data analysis to provide impact to major CPG, Retail and Foodservice companies. Don currently serves Associate Clinical Professor at the University of Chicago. Previously Don served as Board President of Chicago Chapter of the American Statistical Association and as Program Director of the MS, Business Analytics program at DePaul University. As Senior VP, Analytics for HAVI Group, Don helped pioneer new analytics implementations for McDonald’s and Coca-Cola. Prior to joining HAVI Group, Don was Director of Advertising Analytics for Sears, Roebuck & Co. – bringing cutting edge analytics of Sears’ media (tv, radio, print) support to drive ROI based decision making. Don has also managed research and analytics for several major brands for Kraft Foods and site location analytics and modeling for Hallmark Cards.
+Don was also an active duty U.S. Army officer for 11 years – serving in troop leadership positions in South Korea, Germany and the U.S. Don graduated from the United States Military Academy at West Point with a BS in Engineering. Additionally, he has an MSE in Operations Research from The University of Texas at Austin and MBA from the University of Kansas.
+Jonathan Williams has been working in statistical consulting and data science education for fourteen years and currently teaches full-time at the University of Chicago. Previously, he managed data science teams at Civis Analytics, working on behalf of public sector clients, and before that he worked as a vice president at Compass Lexecon, providing and supporting expert reports and expert testimony for litigation. Jonathan earned his BA and MS degrees in statistics from the University of Chicago (’07, ’08) and is also an alumni of the Master of Science in Analytics (now known as MS in Applied Data Science) program (’16). His focuses include regression analysis, data visualization, technical writing, financial valuation, mortgage portfolio modeling, and damages estimation.
+Shaddy Abado is a Lead Data Scientist at Ulta Beauty, where he focuses on developing machine learning models to optimize marketing strategies and enhance personalized experiences. With a background in engineering, throughout his career, Shaddy’s interests span various fields ranging from researching light-fluid interactions for aero-optics applications, developing data driven solutions for equipment predictive maintenance, and consulting companies throughout their digital transformation. Shaddy is passionate about teaching and engaging students in insightful education. Since 2012, he has been instructing graduate-level courses in various academic programs.
+Currently, Shaddy is an Adjunct Associate Professor at the University of Chicago for the MS in Applied Data Science program. He holds three US patents, has presented his research at national conferences, and has published papers in peer-reviewed journals and conference proceedings. Shaddy holds a PhD in aerospace and mechanical engineering from the University of Notre Dame.
+Dr. Agar’s work spans applied AI and data science, with focus areas in supply chain, digital manufacturing, and physical AI. Her work focuses on translating emerging technologies into practical applications for complex operational environments.
+She brings more than a decade of industry experience in analytics, optimization, digital transformation, and AI product development. Her experience includes leadership roles at Caterpillar, where she has led initiatives across digital manufacturing, supply chain, enterprise data, and analytics, including AI-enabled simulation and digital twin applications.
+Dr. Agar has taught at the University of Chicago since 2019 and currently teaches Machine Learning, Python for Analytics, Supply Chain Optimization, and Capstone courses. Her teaching focuses on connecting technical foundations with real-world problems through hands-on work, industry applications, and practical decision-making.
+Dr. Agar holds a Ph.D. and M.Sc. in Industrial Engineering from the University of Oklahoma, as well as B.Sc. degrees in Industrial Engineering and Computer Engineering from Cankaya University. She is also an inventor on a U.S. patent and has received Caterpillar’s CEO Award and Outstanding Achievement in Analytics Award.
+Mike is a Staff Data Scientist at Google. His role involves consulting with large advertisers to help develop data science solutions to their marketing-related challenges. Before joining Google, Mike was a Senior Data Scientist at Nielsen, analyzing smart TV data. Mike has a PhD in Astrophysics from the University of Michigan. He also worked as a postdoctoral researcher at the Max-Planck Institute for Astrophysics in Germany before moving to Data Science.
+Steve Barry serves as technology and data leader at a global investment bank. He brings more than 25 years of leadership experience in the realms of technology and finance. Furthermore, Steve’s expertise extends to data science and AI, with a demonstrated proficiency in platforms like AWS, Azure, and GCP.
+Steve is currently a Lecturer in the Master’s in Applied Data Science at the University of Chicago. He graduated with a master’s degree from the same program in 2020. His background in finance and technology, has been pivotal in applying data science in practical contexts.
+Complementing his professional experience, Steve served as a Teaching Assistant in the same University of Chicago Master’s program for three years for multiple courses including: BDP, DEPA, ML, and Data Visualization. This role allowed him to bridge the gap between academic knowledge and its application in the finance and tech industries. Steve is an enthusiastic lifelong learner that provides him unique perspective to communicate complex concepts clearly.
+Shree Bharadwaj works at West Monroe, a management consulting company. As the AI Center of Excellence lead for M&A, he advises private equity and venture capital firms and C-level executives on value creation, post-close synergies, and data and analytics (BI/AI) strategies focused on business outcomes. In his previous executive leadership roles at Syndigo and IRI, he led product ownership, data strategy, data science, next-gen platform, and M&A integrations. His expertise revolves around growth and innovation, leadership and operational excellence. Additionally, his focus revolves around automation and driving decisioning using AI/ML, data engineering at scale using on-premise and cloud platforms, effective data visualizations, model-driven design, and algorithmic thinking.
+Bharadwaj was elected to the Global Standards Architecture Board at GS1, where he worked with global industry leaders to develop standards, roadmaps, and governance and compliance requirements relating to food services, healthcare, retail, supply chain, and CPG/FMCG verticals. His experience spans multiple industries that include AdTech, EdTech, Fintech, healthcare, MarTech, public safety, retail, and telecom in organizations that range from startups to Fortune 100 companies. His interests include Intelligent Systems and Robotics, Machine Learning at scale, Data Engineering, Data Visualization & Knowledge Engineering.
+Sanjay Boddhu is the Head of AI/ML Engineering at HERE Technologies, a global leader in location data and platform services. He has over 15 years of experience in leading and mentoring diverse and distributed teams in developing state-of-the-art applications and solutions in the domains of Computer Vision, Image Processing, Natural Language Processing, Predictive Analytics, and Data Science Strategy/Modeling. He holds a Ph.D. in Computer Science and Engineering from Wright State University and is a Senior Member of the IEEE.
+At HERE, he is leading the UniMap Automation initiative, which leverages AI and machine learning to transform raw spatial and nonspatial data from various sources, such as imagery, probe data, car camera feeds, lidar, and IoT data, into an actionable, navigable digital map that is updated in near real-time. He is also responsible for designing and deploying algorithms at scale, managing product roadmaps and stakeholder engagements, and driving innovation and excellence in map automation and computer vision. His mission is to revolutionize how maps are created and maintained, and to enable new use cases and opportunities for autonomous and robotic mobility.
+Dr. Fouad Bousetouane is a distinguished expert and innovator in artificial intelligence and machine learning. Currently, he serves as the Co-Founder and Chief AI Officer at InterspectAI Inc., working to revolutionize the human resources industry through advanced AI-driven solutions. Dr. Bousetouane also teaches Generative AI at the University of Chicago, where he mentors master’s students, guiding them through high-impact projects that prepare the next generation of AI professionals with real-world applications.
+Professionally, Dr. Bousetouane has a successful track record of leading large machine learning and AI teams, delivering solutions that drive significant business impact for Fortune 500 companies. His leadership has shaped cross-functional AI initiatives, cementing his reputation as an innovator in AI-driven business transformation.
+Dr. Bousetouane’s academic background is rooted in rigorous research and scholarship. He completed his doctorate at UBMA in Algeria, in collaboration with ULCO in France, and later received an accredited Ph.D. from the University of Nevada, Las Vegas (UNLV). His postdoctoral work at UNLV focused on deep learning for multimodal data, leading to numerous publications in top-tier journals and conferences. As a respected reviewer, he contributes his expertise to prominent journals and conferences, including IET-Image Processing Journal, IEEE Transactions on Intelligent Transportation Systems, IEEE-IROS2012, and IEEE-ITSC-2015.
+Throughout his career, Dr. Bousetouane has been honored with multiple awards, including recognition as one of the top 30 AI scientists by MIT-Arabia Magazine, the Timmy Award for Best Tech Manager in Chicago (2020), and designation as a top emerging leader by Marquis Emerging Leaders Magazine in 2024. His leadership in AI innovation also earned his team a place on Fortune’s list of “America’s Most Innovative Teams.” Additionally, Dr. Bousetouane was appointed by Amazon/AWS as one of the judges for the Foundation and Generative AI Model Development Awards.
+A strong advocate for ethical AI practices, Dr. Bousetouane actively participates in AI panels, mentors aspiring professionals, and champions responsible AI frameworks that ensure a positive societal impact, solidifying his influence in AI innovation and education.
+Shahbaz Chaudhary has over fifteen years of experience developing software systems for financial companies, specializing, most recently, in trading systems. His free and open-source tools are widely used on Wall Street. Three years ago, he made the switch to data science. He graduated from the University of Chicago’s Master of Science in Analytics program, where his team won top honors for their capstone project. He is currently working at Charles Schwab as a manager of data science.
+Michael is a seasoned business & engineering leader, currently working as the Head of AI at Monster Energy. Before working at Monster Energy, Michael worked as AXS’ Senior Director of Global Data Strategy & Analytics, where he led business intelligence, analytics engineering, web analytics & data instrumentation for the US, Canada & Japan.
+Prior to working at AXS, Michael was a chief data scientist & technology leader at the Boston Consulting Group through Gamma, their advanced analytics & AI powerhouse.
+Michael started his career doing genetics as well as cognitive & behavioral neuroscience research, eventually falling in love with data science & AI – since making that career change, he has never looked back.
+Michael has held various senior leadership roles within analytics, including leading global analytic innovation at Kraft Heinz & functioning as the Chief Data Scientist at Upshop.
+He has a passion for helping organizations find ways to leverage advanced analytics to hit their financial & marketing goals, scale with success & make AI real for business.
+He is a graduate from the University of Chicago & has completed post-graduate work at both MIT & Northwestern. He recently completed his Tech MBA at Columbia University in New York City and is currently a professor at USC.
+Sebastien Donation has nearly two decades of experience in the fields of high-performance computing, software design and development, and financial computing. Currently an architect in Bloomberg Office of the CTO, he has a wide variety of professional experience, including serving as CTO of a FX/Crypto trading shop, head of software engineering at HC Technologies, quantitative trading strategy software developer at Sun Trading, partner at high-frequency trading hedge fund AienTech, and a technological leader in creating operating systems for the Department of Defense. He also has research experience with Bull, and as an IT Credit Risk Manager with Société Générale in France.
+Sebastien has taught various computer science and financial engineering courses over the past fifteen years at a variety of academic institutions, including the University of Versailles, Columbia University’s Fu Foundation School of Engineering and Applied Science, University of Chicago and NYU Tandon School of Engineering. Courses taught include: Computer Architecture, Parallel Architecture, Operating Systems, Machine Learning, Advanced Programming, Real-time Smart Systems, Computing for Finance in Python, and Advanced Computing for Finance. Sebastien holds a PhD in High Performance Computing Optimization, an MBA in Finance and Management, and an MSc in Analytics from the University of Chicago. His main passion is technology, but he is also a scuba diving instructor and an experienced rock climber.
+Jason Edgar is an analytics leader and educator with more than a decade of experience designing and implementing pragmatic data science solutions to real-world problems. At Complete Wellness Solutions (CWS), he specializes in data-driven population health management for employers, hospital systems, and health plans, unifying siloed health data to support risk identification and stratification, targeted interventions, and program evaluation. He previously worked at Astellas Pharma, United Airlines, and Analysis Group.
+Jason teaches Data Science for Healthcare and is a graduate of the program, where his capstone evaluation of employer wellness programs won best in show. He holds a BS in Economics and Environmental Studies from Tulane University. Outside of work and teaching, he can usually be found running on the lakefront path.
+Natural Language Processing
+Ignas Grabauskas is a Data Scientist at Simpson, Thacher, & Bartlett, a premier law firm well-known for its expertise in financial and corporate law. Ignas has over five years of experience applying machine learning and deep learning techniques to the finance and legal domains. His recent work includes using LLMs for various tasks such as document classification, customized named-entity recognition (NER), and summarization. Ignas holds a BA in Physics from the University of Chicago and is an alumnus of the MS in Applied Data Science program.
+Batu Gundogdu holds a Ph.D. in Electrical Engineering and is an Associate Clinical Professor at the University of Chicago, bringing over 15 years of experience developing deep-learning models across the fields of speech, language, and medical imaging. Most recently, he served as Head of AI Engineering at Eva, an AI compute startup, building algorithms for a novel next-generation AI hardware.
+Previously, Dr. Gundogdu served as Research Faculty in the Department of Radiology at the University of Chicago for four years, where he led AI efforts at the MRI Research Center.
+In the UChicago MS in Applied Data Science program, he shares his practical insights and experiences with students on being an AI engineer and scientist across diverse venues, including research institutions (UChicago MRI Research Center), corporate companies (Analog Devices – ADI), government (Navy and NATO), and startups (Eva). He teaches courses on Bayesian Machine Learning for Generative AI and Deep Learning.
+Dr. Gundogdu also teaches in UChicago’s MS in Applied Artificial Intelligence program, where he is a founding faculty member. Drawing on his experience across research, industry, and startups, he helps students connect advanced AI concepts with the realities of building and deploying AI systems in practice. He is also a Co-Founder of VicVox, a boutique AI startup analyzing social discourse.
+Dr. Justin Kurland is Vice President, Tech Fellow in the Engineering Division at Goldman Sachs. Justin’s 20+ years in data and analytics include a senior lectureship in the Department of Computer Science at the University of Waikato, 50+ peer-reviewed publications, and numerous open-source contributions in Machine Learning and Time Series forecasting. With degrees from Rutgers University, Boston University, and University College London, Justin also has extensive data science consulting experience working with organizations like Microsoft and the UK Home Office.
+Jeong-Yoon Lee is a Sr. Manager in Applied Science at Uber, where he leads research and development in personalization, targeting, optimization, and causal inference for marketing. Jeong is also leading the CausalML project, an open-source Python package that provides a suite of causal machine-learning algorithms based on recent research. He has co-organized the causal machine learning tutorial and workshops (CMLKDD) at KDD since 2021.
+As an avid participant in machine learning competitions, Jeong won the KDD Cup in 2012 and 2015 and was ranked in the top 10 at Kaggle in 2015. He also served as the KDD Cup co-chair in 2018. Prior to joining Uber, Jeong was a Sr. Research Scientist at Netflix, a Sr. Applied ML Scientist at Microsoft, and the Chief Data Scientist at Conversion Logic.
+Jeong received his Ph.D. in Computer Science from the University of Southern California and his B.S. in Electrical Engineering from Seoul National University.
+Jan Mrozowski has 20+ years of experience in analytics and data science within finance, marketing, and risk functions, most recently at financial services organizations. His career spans the US, UK, Canada, and Australia, with roles at Qantas, Woolworths, GE Capital, Synchrony Financial, Citibank, and FlexShopper.
+At Citibank, he led Decision Management & Advanced Risk Analytics teams, building models spanning the breadth of the U.S. consumer base. At FlexShopper, he headed Modeling & Strategy.
+Jan holds a PhD in Economics, an MSc in Analytics from the University of Chicago, an MBA, and multiple professional accounting designations.
+John Navarro is an Adjunct Instructor in the Master of Science in Applied Data Science program at the University of Chicago, bringing a unique blend of academic expertise and real-world industry experience to the classroom. He currently serves as Chief Financial Officer at John Burns Construction Company, where he leads financial operations, drives long-term strategic planning, and implements advanced analytics to guide organizational decision-making.
+Before assuming his current role, John built a diverse career in consulting, data science, and finance. He was a Strategy Consulting/Data Science Manager at McKinsey & Company, a Data Science Manager at Accenture, and a Senior Data Scientist at 84.51°, a leading data analytics firm. Earlier in his career, he specialized in algorithmic trading and financial modeling with HC Technologies, International Trading Group, and StoneX Group.
+A double graduate of the University of Chicago, John holds a Bachelor of Arts in Economics and a Master of Science in Applied Data Science. His teaching draws directly from his professional experiences, integrating statistical modeling, computational methods, and strategic insight to help students bridge theory with practice. Known for his industry-informed approach and commitment to mentorship, he challenges students to think critically, apply rigorous analytics, and connect their work to real-world impact.
+Danny Ng is a Director of Machine Learning at Expedia Group. At Expedia, one of the world’s leading travel companies, Danny leads a team of scientists on developing machine learning models for travel search experience. Danny is also an Adjunct Lecturer at the University of Chicago where he teaches graduate courses for the Master of Science in Applied Data Science program. Danny earned his PhD in Statistics from the University of Chicago.
+Ashish Pujari is a Data and AI consultant, practitioner, and educator with over 20 years of experience in in machine learning, big data, and cloud computing. He has led large global technology and data science teams and consulted for Fortune 500 companies in banking, finance, healthcare, insurance, and manufacturing.
+As a Principal ML/AI Architect at AWS, Ashish provides strategic guidance to enterprise customers on leveraging the cloud for AI and Machine Learning. Prior to joining Amazon, he served in various technology leadership roles at Credera, GLG, IRI, and Pegasystems. Ashish holds a Master of Science in Analytics from the University of Chicago and BS in Electrical Engineering from the National Institute of Technology, Rourkela.
+Jenny Schmidt, founder of J Schmidt Consulting, is an expert in developing analytics talent. As an experienced leadership and career coach, Jenny works with those seeking to enter the analytics field and analytics professionals to advance in their careers, get their ideas implemented, develop executive presence, and perform at a high level. She also partners with analytics leaders and HR executives to develop analytics talent and facilitates team-building workshops to improve the productivity and effectiveness of analytics teams. Jenny is an expert panelist for the International Institute for Analytics (IIA) and a founder of the Des Moines Data & Analytics Meetup, a networking group for data and analytics professionals.
+Jeanette Shutay is an Assistant Clinical Professor at the University of Chicago Data Science Institute, where she teaches and mentors graduate students in applied data science, artificial intelligence, and advanced analytics. She also teaches in the Chief AI Officer Certificate Program at the University of Chicago Booth School of Business Executive Education, helping senior leaders understand emerging AI, responsible adoption, and organizational readiness.
+Jeanette is also President and Chief Data Officer of Shutay Consulting, where she advises organizations on data strategy, applied AI, forecasting, and responsible AI implementation across multiple industries. Her research interests focus on applying data science for social and environmental benefit, and human-centered technology evaluation. Through her teaching, research, and industry collaborations, she seeks to translate rigorous analytical methods into responsible solutions with measurable real-world impact.
+Fan Yang is a financial services and data science professional with over a decade of experience in financial modeling, risk management, and advanced analytics. His expertise spans consumer banking, credit cards, residential lending, mortgage finance, and mortgage-backed security, with a focus on applying statistical and machine learning techniques to complex business and risk-management challenges.
+Fan currently works at FHLBank Chicago, where he specializes in quantitative risk modeling and financial analytics. Previously, he held leadership roles at Discover Financial Services, where he led Card Acquisition Risk Modeling, and at BMO, where he led Marketing Advanced Data Analytics. He has also worked on CCAR and CECL stress testing at KeyBank and Northern Trust.
+Fan currently teaches Time Series Analysis and Forecasting and Statistical Models for Data Science at the University of Chicago and has three years of prior experience teaching at the University of Iowa. He holds a Ph.D. in Statistics and an MBA from the University of Iowa.
+Dr. Dmitri Sidorov is a Principal Data Scientist at Abbott Laboratories, a multinational healthcare company, specializing in research-based drugs, medical devices, diagnostics, and nutritional products.
+He earned a PhD in Physics from Oklahoma State University with a focus in analysis of data from particle physics experiments and applying statistics.
+Dmitri has over a decade of professional experience analyzing Big Data, using various methods and techniques, and generating relevant and actionable insights. He teaches R for Data Science and Big Data and Cloud Computing courses in the MS in Applied Data Science program at the University of Chicago.
+This experience gave him a strong belief that any endeavor can be improved by intelligent use of data.
+PhD in Theoretical Physics, MS in Computer Science. Currently – Applied Scientist at Amazon. Previous jobs: Computational Scientist at the Argonne National Laboratory, Scientist at LIGO project of California Institute of Technology. I specialize in scientific computing, HPC, machine learning, data analysis.
+
+### Staff
+
+### Taylor Alexander, MA
+Senior Associate Director, Academic Affairs, MS in Applied Data Science
+
+### Briana Allen, MEd
+Executive Director, MS Applied Data Science Program
+
+### Jose Alvarado
+Senior Associate Director, Enrollment Management, MS in Applied AI
+
+### Josie Badillo Sittig
+Assistant Director, Marketing/Advertising & Communications, MS in Applied Data Science
+
+### Zach Brown
+Operations Coordinator
+
+### Kendall Cox
+Operations Coordinator
+
+### Nick DiAntonio, MEd
+Graduate Academic Advisor, MS in Applied Data Science
+
+### Lauren Isaacman Darga, MA
+Associate Director, External Partnerships and Alumni Engagement, MS in Applied Data Science
+
+### Abigayle Fredrickson, MS Env Ed, MAT
+Director, Academic Affairs and Instructional Services, MS in Applied Data Science
+
+### Matthew Harris-Ridker
+Assistant Director, Enrollment Management, MS in Applied Data Science
+
+### Henry Igunbor
+Senior Manager of Facilities and IT
+
+### William Jones
+Academic Affairs Specialist, MS in Applied Data Science
+
+### Samantha Kruse
+Associate Director, Student Affairs, MS in Applied Data Science
+
+### Lauren Milewski, MSEd
+Instructional Designer, MS in Applied Data Science
+
+### Alison Ossyra
+Director, External Partnerships and Career Services, MS in Applied Data Science
+
+### Grace Sartin
+Assistant Director of Instructional Services, MS in Applied Data Science
+
+### DuJuan Smith, PhD
+Director, Student Affairs, MS in Applied Data Science
+
+### Daniel Truesdale, MPP
+Director, Enrollment Management and Analytics, MS in Applied Data Science
+
+### Patrick Vonesh
+Senior Assistant Director, Enrollment Management, MS in Applied Data Science
+
+### Taylor Wallace, MEd
+Senior Graduate Academic Advisor, MS in Applied Data Science
+
+### Jennifer Wei, MEM
+Assistant Director, Career Services, MS in Applied Data Science
+
+### Samantha Widemon, MNA
+Senior Graduate Academic Advisor, MS in Applied Data Science
+
+### Ben Wiebers
+Assistant Director of Career Services, MS in Applied Data Science
+Taylor Alexander serves as the Senior Associate Director of Academic Affairs for the MS in Applied Data Science program. A graduate of the University of Chicago’s Harris School of Public Policy, she applies a policy perspective to program administration, examining how regulations, standards, and institutional practices affect program design, quality, and access.
+With more than a decade of experience in higher education, Taylor began her career in international comparative education and foreign credential evaluation, developing expertise in how academic standards, qualifications, and institutional practices vary across education systems. Her interest in data-informed approaches to education took shape during her graduate studies and now guides her work in program assessment and academic operations.
+Beyond her program responsibilities, Taylor explores questions of responsible AI use and governance in higher education. She has presented on the topic at UPCEA conferences in Denver (2025) and New Orleans (2026).
+Taylor also serves as the Resident Head for Woodward House at Max Palevsky Residential Commons, where she supports undergraduate students in a residential community.
+Briana Allen serves as the Executive Director of the MS Applied Data Science Program. Briana oversees the day-to-day responsibilities of the Instructional Services and Operations teams. Briana holds a Master of Technology in Education and has a background in instructional design, with an emphasis in online course design. As a Quality Matters Certified Peer Reviewer, Briana focuses on the intersection of quality of online course development and student experiences, including how online best practices can be leveraged by in-person courses. Briana is passionate about mentoring instructors in the creation of high-quality instructional resources, leveraging active learning strategies, and applying instructional technologies that create engaging student experiences across all modalities.
+Jose Alvarado serves as the Senior Associate Director of Enrollment Management for the Applied AI (AAI) and Applied Data Science (ADS) programs. Prior to his current role, Jose served as a higher education professional specializing in recruitment and enrollment management. He has worked at great institutions around the Chicagoland area, such as the University of Illinois System, Northwestern University, and Loyola University Chicago. He brings with him extensive knowledge of working with undergraduate, graduate, and international student populations.
+Josie Badillo Sittig currently holds the role of Assistant Director of Marketing/Advertising & Communications for the MS in Applied Data Science program. With an extensive background exclusively in the advertising agency realm, Josie brings a wealth of experience gained from collaborating with diverse clients, spanning healthcare to lottery sectors. Prior to stepping into her current position, Josie’s career has been marked by a dedication to delivering impactful marketing and communications solutions.
+Zach Brown is an Operations Coordinator for the Applied Data Science Operations team. In this role, he manages room reservations and oversees classroom technology for MS-ADS classes and events within NBC Tower. Drawing on more than a decade of experience in Student Center Facility Operations and Event Services, Zach brings valuable experience to his position. Previously, he held several roles at the Illini Union, University of Illinois at Urbana-Champaign. Most recently, he was the Program Manager for the Event Services Office, where he led a team of undergraduate students in processing all facility reservations. Zach’s educational background includes a Master’s in Higher Education Administration from Ohio University and a bachelor’s degree in psychology and Anthropology from Ohio State University.
+Kendall Cox has been a valuable member of the University of Chicago for nearly six years. He graduated from St. Thomas University in Miami, Florida, with a bachelor’s degree in business administration and management. Kendall began his journey with UCPE in January 2019, where he gained a wealth of knowledge in operations and faculty skills under the guidance of his manager, Duke Yoon. Fast forward to the present, and Kendall has transitioned to his role as an Operations Coordinator with ADS since mid-2024, where he plays a crucial role in supporting the operations of the Applied Data Science Master’s degree classes. But there’s more to Kendall than just his technical expertise! He has a hidden talent—he’s also a professional artist specializing in R&B, Hip Hop, and Afro Beat music. As the youngest member of his family, Kendall is deeply passionate about personal growth and strives to be an inspirational figure to everyone around him.
+Nick DiAntonio serves as one of the Graduate Academic Advisors for the MS in Applied Data Science program at the University of Chicago. Nick primarily advises students in the In-Person Program. As a Graduate Academic Advisor, Nick enjoys working with students to help them progress towards degree completion and meet their academic goals. For advising questions and assistance, please reach out to Nick at applieddatascience-advising@uchicago.edu or visit Connecting with Your MS in Applied Data Science Advisors.
+Prior to working at the University of Chicago, Nick earned his Bachelor of Science in Education and Master of Education from Kent State University in Kent, Ohio. Nick has worked professionally in higher education since 2018 and is dedicated to helping students succeed.
+Lauren Isaacman Darga is the Associate Director of External Partnerships and Alumni Engagement for the MS in Applied Data Science program at the University of Chicago. In this role, she is committed to establishing meaningful relationships and bridging the gap between graduate students and external organizations. Lauren brings a wealth of experience including her tenure at Marsh McLennan, work in alumni relations for her alma mater, and involvement in minor-league baseball. She holds both BA and MA degrees in Organizational Communication from the University of Memphis.
+Abigayle (Abi) Fredrickson serves as Director of Academic Affairs and Instructional Services for the University of Chicago’s MS in Applied Data Science program. In this role, she oversees academic personnel processes, instructional operations, and the administrative functions that support students, faculty, and staff across the program.
+Abi brings more than two decades of experience in graduate professional education. She comes to UChicago from Northwestern University’s McCormick School of Engineering, where as a Director in the Office of Professional Education she led a team of 19 staff across 13 specialized engineering master’s programs – partnering with school and program leadership to strengthen operations, cultivate cohesive team culture, and create systems that held steady through rapid change and competing demands. Earlier in her Northwestern tenure, she managed comprehensive day-to-day operations for the Master of Science in Information Technology program, working closely with faculty, top industry and alumni advisors, and university stakeholders to keep the program continuously evolving alongside the demands of the field.
+Throughout her career, Abi has been drawn to creating – and transforming – teams, processes, and cultures that build trust and endure. She leads with a particular attentiveness to the in-between moments – transitions, handoffs, and periods of change – where the right support makes all the difference. She leads with a focus on collaboration, accountability, and the belief that strong operational foundations are what allow students and faculty to do their best work.
+She holds an MS in Environmental Education from Lesley University (Cambridge, MA), a Master in the Art of Teaching from National Louis University (Chicago, IL), and a BA in Sociology/Anthropology from Earlham College (Richmond, IN). She also completed the Kellogg School of Management’s Leading Change executive program and is a graduate of Leadership Evanston’s Signature Leadership Program.
+Matthew Harris-Ridker serves as the Assistant Director of Enrollment Management for the MS in Applied Data Science program. Prior to his current role, Matthew has served as a higher education professional working in recruitment and enrollment management, and in study abroad recruitment and on-site student support. Matthew received his BA from The College of Wooster.
+Henry Igunbor currently holds the role of Senior Manager of Facilities and IT, overseeing the 28th floor of the NBC Tower. His primary focus is continuous improvement, ensuring that both facilities and technology operate seamlessly to support a productive and efficient work/learning environment. With a strong background in IT infrastructure, cybersecurity, and vendor management, Henry has held leadership roles in IT and InfoSec, previously serving as Director of IT & InfoSec and IT Infrastructure Analyst Senior Associate. He also worked as an IT & AV Support – Systems Administrator at Kellogg Northwestern, where he provided technical support, managed AV operations, and ensured smooth IT functionality across various platforms. Throughout his career, he has led major IT initiatives, process optimizations, and cross-functional collaborations to drive operational excellence.
+William Jones serves as the Academic Affairs Specialist supporting Other Academic Appointees for the University of Chicago’s MS in Applied Data Science program. In this role, he manages academic personnel processes including appointments, reappointments, and onboarding for instructional staff, coordinates hiring and compliance documentation, and supports program operations by collaborating with faculty and administrative partners to ensure timely processing, clear communication, and a positive experience for academic appointees.
+William earned a Bachelor of Science in Accounting from Chicago State University. He brings a diverse background in compliance, operations, and program administration spanning higher education, law enforcement, and financial regulation.
+Samantha Kruse serves as the Associate Director of Student Affairs for the MS in Applied Data Science. After starting a career in community organizing and politics, Samantha realized her passion for working with students and advocating on their behalf. Previously, she worked with graduate and undergraduate students in the nonprofit sector and the University of Illinois system. She specializes in student advising and retention and has been recognized for excellence in advising at the University of Illinois at Chicago. She also has experience in admissions and registrar functions for both credit and noncredit course offerings. Samantha earned her Master of Public Administration in 2018. Her capstone focused on public service motivation and retention.
+Lauren is the Instructional Designer for the MS in Applied Data Science program. She helps instructors craft learning experiences that engage students in rigorous academic work and prepare them for fulfilling careers. Most recently, Lauren was the Senior Director of Learning and Design at Kepler College in Rwanda, where she led the design of their first bachelor’s degrees. Lauren is interested in how programs can promote educational equity and align with workforce needs, with a focus on helping students develop 21st century skills that enable them to be lifelong learners. Lauren holds an MSEd from Hunter College and a BA in English and Anthropology from the University of Michigan.
+Alison Ossyra is the Director of External Partnerships and Career Services for the Master’s in Applied Data Science (MS-ADS) program. Since 2017, Alison has been dedicated to supporting MS-ADS students in various capacities. Currently, she oversees career services, fosters external partnerships, manages alumni relations, and coordinates capstone projects. Her diverse experience also includes roles in admissions and marketing. Alison holds a BA in International Studies from the University of Illinois. She began her career in higher education at Northwestern University, bringing a wealth of knowledge and a passion for student success to her current role.
+Grace Sartin serves as the Assistant Director of Instructional Services for the University of Chicago MS in Applied Data Science program. She manages the hiring and support of Instructional Assistants and assists with program development. Prior to her current role, Grace provided academic support to the Art History doctoral students at the University of Chicago and managed student milestone data collection. She has received a B.A. in Art History from Pomona College and is currently completing her M.Ed in Educational Policy, Organization, and Leadership from University of Illinois Urbana Champaign. Her current research focuses on making higher education more accessible for minority populations and she is passionate about training instructional assistants and professors to better support students on their academic path.
+Dr. DuJuan Smith currently serves as the Director of Student Affairs for the MS in Applied Data Science program at the University of Chicago. In his role, he oversees graduate academic advising, student-related matters, and policy development to support the progression of all students. He loves helping others walk in purpose while amplifying their genius. He obtained his Ph.D. in Higher Education Administration in December 2020 at Illinois State University (ISU) in Higher Education Administration. His impressive career includes serving as the Assistant Dean of Student Life for Semester at Sea in the Spring of 2014 & Spring of 2020; Assistant Dean of Students at the University of Illinois at Chicago (UIC), Assistant Dean of Students for the University of Houston (UH), and Coordinator of Judicial Affairs at Moraine Valley Community College. He holds a B.A. in Applied Sociology with a minor in Black Studies and an M.S.Ed. in Clinical Mental Health Counseling from Northern Illinois University (NIU). In his spare time, he teaches youth photography, loves to travel, and is engaged in Brazilian jiu-jitsu. DuJuan is an active and proud member of Alpha Phi Alpha Fraternity, Incorporated!
+Daniel Truesdale serves as the Director of Enrollment Management & Analytics for the MS in Applied Data Science in-person and online programs. He is also the host of ChatADS, the program’s podcast exploring real-world applications of data science. A graduate from the Harris School of Public Policy at the University of Chicago, Daniel has been assisting students on their educational journey and encourages lifelong learning. He has also completed Machine Learning and Data Engineering courses at the University of Chicago, which enables him to understand the University’s commitment to Data Science.
+Patrick Vonesh serves as the Senior Assistant Director of Enrollment Management for the Applied Data Science Program. Prior to his current role, Patrick worked with academic institutions across the United States in enrollment management. Patrick earned his BA and MA in History at Eastern Illinois University. Patrick ’s professional focus is working with talented students that want to grow their academic and professional understanding of Data Science as a discipline.
+Taylor Wallace serves as the primary Academic Advisor for the MS in Applied Data Science in-person program with last names A-K. Taylor received her B.S from The University of Texas at Austin in Deaf Education, and her M.Ed from DePaul University in Higher Education Leadership, with an academic and professional focus on student affairs, student conduct and crisis, and event coordination. She brings a breadth of knowledge to advising the Applied Data Science program experience and finds a deep joy and honor in guiding students to their individual goals, pathways, and careers.
+Jennifer Wei is the Assistant Director of Career Services for the Master’s in Applied Data Science (MS-ADS) program. Her focus is on advising MS-ADS students in their career journey through individualized sessions and career workshops. Jennifer joins the program from industry where she worked in various engineering, consulting, and management roles. Jennifer holds a BS in Mechanical Engineering and a Master’s in Engineering Management from Northwestern University.
+Samantha Widemon serves as a Senior Graduate Academic Advisors for the MS in Applied Data Science in-person and online programs at the University of Chicago. Samantha earned her Bachelor’s in Communication Studies degree from Northwestern University, and her Master’s in Nonprofit Administration, with certificates in Higher Education and Leadership, from North Park University. She has worked in higher education for eight years, providing administrative and advising support to students as they navigate through their undergraduate and graduate studies.
+Ben Wiebers is the Assistant Director of Career Services for the Master’s in Applied Data Science (MS-ADS) program. He brings a holistic approach to career advising, with a special emphasis on online students within the MS-ADS program. Prior to working at the university, Ben was a technical recruiter, helping to bring staff of all levels into niche technical roles across Chicago startups and enterprise companies in the US. Regardless of the setting, Ben centers his work on reflection and lifelong learning to enable others to identify and reach their goals. He holds a bachelor’s degree in Mathematics from the University of Wyoming and a master’s degree in Education from Loyola University Chicago.

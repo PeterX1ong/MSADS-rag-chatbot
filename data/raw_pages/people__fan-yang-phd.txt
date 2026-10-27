@@ -1,0 +1,8 @@
+Source: https://datascience.uchicago.edu/people/fan-yang-phd/
+Title: Fan Yang, PhD
+
+# Fan Yang, PhD
+Instructor; VP at Federal Home Loan Bank of Chicago
+Fan Yang is a financial services and data science professional with over a decade of experience in financial modeling, risk management, and advanced analytics. His expertise spans consumer banking, credit cards, residential lending, mortgage finance, and mortgage-backed security, with a focus on applying statistical and machine learning techniques to complex business and risk-management challenges.
+Fan currently works at FHLBank Chicago, where he specializes in quantitative risk modeling and financial analytics. Previously, he held leadership roles at Discover Financial Services, where he led Card Acquisition Risk Modeling, and at BMO, where he led Marketing Advanced Data Analytics. He has also worked on CCAR and CECL stress testing at KeyBank and Northern Trust.
+Fan currently teaches Time Series Analysis and Forecasting and Statistical Models for Data Science at the University of Chicago and has three years of prior experience teaching at the University of Iowa. He holds a Ph.D. in Statistics and an MBA from the University of Iowa.

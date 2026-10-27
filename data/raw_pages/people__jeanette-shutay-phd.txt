@@ -1,0 +1,7 @@
+Source: https://datascience.uchicago.edu/people/jeanette-shutay-phd/
+Title: Jeanette Shutay, PhD
+
+# Jeanette Shutay, PhD
+Assistant Clinical Professor; President & Chief Data Officer at Shutay Consulting
+Jeanette Shutay is an Assistant Clinical Professor at the University of Chicago Data Science Institute, where she teaches and mentors graduate students in applied data science, artificial intelligence, and advanced analytics. She also teaches in the Chief AI Officer Certificate Program at the University of Chicago Booth School of Business Executive Education, helping senior leaders understand emerging AI, responsible adoption, and organizational readiness.
+Jeanette is also President and Chief Data Officer of Shutay Consulting, where she advises organizations on data strategy, applied AI, forecasting, and responsible AI implementation across multiple industries. Her research interests focus on applying data science for social and environmental benefit, and human-centered technology evaluation. Through her teaching, research, and industry collaborations, she seeks to translate rigorous analytical methods into responsible solutions with measurable real-world impact.

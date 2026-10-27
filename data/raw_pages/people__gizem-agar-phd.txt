@@ -1,0 +1,9 @@
+Source: https://datascience.uchicago.edu/people/gizem-agar-phd/
+Title: Gizem Agar, PhD
+
+# Gizem Agar, PhD
+Assistant Clinical Professor, Analytics & Transformation Leader
+Dr. Agar’s work spans applied AI and data science, with focus areas in supply chain, digital manufacturing, and physical AI. Her work focuses on translating emerging technologies into practical applications for complex operational environments.
+She brings more than a decade of industry experience in analytics, optimization, digital transformation, and AI product development. Her experience includes leadership roles at Caterpillar, where she has led initiatives across digital manufacturing, supply chain, enterprise data, and analytics, including AI-enabled simulation and digital twin applications.
+Dr. Agar has taught at the University of Chicago since 2019 and currently teaches Machine Learning, Python for Analytics, Supply Chain Optimization, and Capstone courses. Her teaching focuses on connecting technical foundations with real-world problems through hands-on work, industry applications, and practical decision-making.
+Dr. Agar holds a Ph.D. and M.Sc. in Industrial Engineering from the University of Oklahoma, as well as B.Sc. degrees in Industrial Engineering and Computer Engineering from Cankaya University. She is also an inventor on a U.S. patent and has received Caterpillar’s CEO Award and Outstanding Achievement in Analytics Award.

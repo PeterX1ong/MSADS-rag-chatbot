@@ -1,0 +1,156 @@
+Source: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/
+Title: FAQs
+
+# FAQs
+
+# Master’s in Applied Data Science FAQs
+Learn more about what makes our program unique.
+David Uminsky, PhD – UChicago Data Science Institute, Executive Director
+
+### Application Process
+
+#### When will I receive my Master's in Applied Data Science admission decision?
+Admissions decisions are typically released 1-2 months after each application deadline. Only completed applications are reviewed. Please refer to the How to Apply page for guidelines.
+
+#### If I finish my Master's in Applied Data Science application before the deadline, will I receive my decision early?
+No, admissions decisions for the in-person program are typically released 1-2 months after each application deadline. Your application must be complete to be considered for review.
+
+#### How do I submit the materials that will accompany my Master's in Applied Data Science application?
+Please review the How to Apply page.
+
+#### Does the admissions office allow recommenders to email their letter directly as an attachment to be included in an applicant’s file?
+Unfortunately, no. Recommenders must upload their letter of support by using the URL that is sent to them electronically by our online application system.
+
+#### Do I need to provide my recommenders with instructions?
+No. Recommendation forms and instructions are sent electronically to recommenders once their names are entered within the online application.
+
+#### My recommender did not receive notification, can I resend it?
+Yes. If a recommender does not receive a URL, the applicant can resend the link through the online application or ask the recommender to check their spam folder.
+
+#### What materials do I need to submit to accompany my application for admission to the Masters in Applied Data Science program?
+Please review the How to Apply page.
+
+#### Once I upload my unofficial transcripts to my application, do I still need to provide an official transcript?
+You must upload one unofficial transcript from each university you attended within your application. An unofficial undergraduate transcript is required, even if you hold advanced degrees. Do not mail transcripts with your application; only uploads are needed for evaluation. If admitted, you will need to submit official transcripts from each university before matriculation.
+
+#### Is the GRE or GMAT required for the Master's in Applied Data Science program?
+No, the GRE/GMAT is not required for admissions.
+
+#### I took the GRE and/or GMAT and want to include my score(s) with my Master's in Applied Data Science application.
+While the GRE/GMAT is not required, applicants can still submit their scores. The GRE school code is 1832; the GMAT school code is H9X-WG-70.
+
+#### Who is exempt from providing proof of English proficiency?
+Please refer to the University of Chicago’s English Language Proficiency requirements.
+
+#### How will I be notified that I am admitted to the Master's in Applied Data Science program?
+Applicants will be notified to check their application portal via the email they used to submit their application.
+
+#### If I am admitted to the Master's in Applied Data Science program, what do I do next?
+Have official e-transcripts sent to applieddatascience-admissions@uchicago.edu.
+If your institution cannot send your documents electronically, please have them send your transcripts to the following mailing address:
+The University of Chicago Attention: MS in Applied Data Science Admissions
+455 N Cityfront Plaza Dr., Suite 2800
+Chicago, Illinois 60611
+
+#### What test scores does UChicago accept as proof of English proficiency?
+Please refer to the Proof of English Proficiency guidelines.
+
+#### What are the minimum scores required?
+Please refer to the Required Minimum Score guidelines.
+
+#### Where do I send my test scores?
+Please send TOEFL scores to the University of Chicago using these instructions at the bottom of the page.
+
+#### I took the TOEFL over two years ago. Can I still use those TOEFL results?
+Please refer to the Validity guidelines.
+
+#### What’s the difference between the MS in Applied Data Science and the MS in Data Science programs at UChicago?
+The two programs share a strong foundation in data science but differ in structure, location, and focus.
+- The MS in Data Science is a 10-course program based on UChicago’s Hyde Park campus. It includes a comprehensive research project and is designed for students who want to dive deeper into the theoretical and research side of data science—often as preparation for PhD study or research-focused careers.
+- The MS in Applied Data Science program offers both a 12-course track and an 18-course thesis track. It is offered in online and in-person formats, with in-person classes held at the NBC Tower in downtown Chicago. The program focuses on applying data science and machine learning methods to real-world problems through hands-on coursework, industry collaborations, and a two-quarter capstone or research project.
+For a more detailed breakdown of the differences between the two programs, check out this article here.
+
+### International Students
+
+#### Which Master's in Applied Data Science provides students with visas?
+The full-time, In-Person 1-Year 12-Course Program & 2-Year Thesis Track 18-Course Program are visa eligible.
+
+#### What is the total cost of tuition for the Master's in Applied Data Science program?
+Please refer to the Tuition, Fees, and Aid webpage.
+
+#### Is the Master's in Applied Data Science an approved OPT/STEM program?
+Yes, the full-time, In-Person Master’s in Applied Data Science program is listed as a STEM-designated degree by the U.S. Department of Homeland Security for the purposes of the STEM OPT extension, allowing eligible students to apply. However, approval of STEM OPT is at the discretion of U.S. Citizenship & Immigration Services.
+
+#### Does the Master's in Applied Data Science program offer Curricular Practical Training (CPT)?
+Please refer to the Curriculum Practical Training webpage.
+
+#### I have worked in the U.S. for more than two years. Does that mean that I am exempt from the TOEFL/IELTS requirement?
+Please refer to the English Language Proficiency guidelines.
+
+### Online Program
+
+#### If I am a student in the In-Person Master's in Applied Data Science Program, may I take courses in the Online Program? Conversely, if I am a student in the Online Program, may I take courses in the In-Person program?
+Currently, students may only take Master’s in Applied Data Science courses in the modality in which they are officially enrolled.
+
+#### Do I need to be a US citizen or permanent resident to apply to Master's in Applied Data Science Online Program?
+No, students do not have to be US citizen or resident to partake in the Online Program. Please note that the Online Program is not eligible for visa sponsorship.
+
+#### How will enrolling in Master's in Applied Data Science Online Program impact my schedule? Are classes held synchronously, asynchronously, or both?
+Classes generally take place on evenings and weekends in order to allow our students and instructors to maintain their professional schedules. The Master’s in Applied Data Science Online Program is both synchronous and asynchronous. The same as our In-Person program, students are required to participate in weekly, live meetings with their instructors and peers, complete readings and coursework, and engage in discussion.
+
+#### Will enrolling in Master's in Applied Data Science Online Program give me the opportunity to network with on-campus students, faculty/instructors, and advisors?
+Yes. All Master’s in Applied Data Science Online Program students are invited to an annual ‘ Immersion Weekend ’ where attendees have opportunities to network and participate in other activities. On a rolling basis, our Career Services team will advertise additional opportunities to connect with employers and peers (e.g., virtual career fairs, virtual career advising/coaching appointments, and more).
+
+#### What value do employers place on the Master's in Applied Data Science Online degree?
+The value employers place on the Master’s in Applied Data Science degree is significant. As they hire Data Scientist, Data Engineers, and Data Analysts from the University of Chicago the expectations for technical competence, communication and influence skills, and exposure to advanced Data Science evolving technologies is high. The skills learned in the program translate directly into practice due to the program’s balance between theory and rigorous application experience developed in coursework and the Capstone project work delivered across the curriculum.
+
+#### Is the Master's in Applied Data Science Online program equally academically rigorous as the In-Person program?
+Yes. The Online Program curriculum is overseen by the same faculty curriculum committee as the In-Person program. Both programs are jointly reviewed and are held to the same high standards. Additionally, both programs are granted by the University of Chicago Physical Sciences Division.
+
+#### Will my diploma indicate I completed the Master's in Applied Data Science Program Online?
+No, your diploma will not include ‘Online’ in the name of your degree.
+
+### MBA/MS
+
+#### How do I apply to the MBA/MS joint degree program?
+Applicants interested in the Joint MBA/MS degree will apply through Booth’s centralized, joint-application process. Applicants should complete the Chicago Booth Full-Time MBA application and select the MBA/MS in Applied Data Science as their program of interest. An MBA/MS program supplement will be available for completion within your Booth application. The supplement contains Applied Data Science specific questions that will be reviewed by the Applied Data Science admissions team along with your full Booth application. For complete consideration, applicants should complete the MBA application and the joint degree program supplement in the same application round prior to submitting the application.
+
+#### What courses will I take in the MBA/MS program?
+As a student in the joint-degree MBA and Applied Data Science program, you’ll take the equivalent of 23 100-unit courses:
+- 14 MBA classes
+- 9 data science courses
+- Leadership Effectiveness and Development (LEAD)
+- Qualified Work Experience, a noncredit professional internship experience
+Your Booth courses will be in person, while your MS courses will be online. Most students will earn both degrees in seven quarters—the same time it takes to earn the MBA.
+
+#### Will MBA/MS courses be in-person or online?
+Your Booth courses will be in person, while your MS courses will be online. Most students will earn both degrees in seven quarters—the same time it takes to earn the MBA. A combination of online and in-person courses gives you flexibility in course scheduling, and you’ll earn two degrees in the time it would take to complete the MBA alone.
+
+#### Are standardized tests required for admission?
+As part of the online application, candidates will be required to submit a GMAT or GRE score for the joint program. International applicants may be required to submit proof of English language proficiency by submitting a TOEFL iBT or IELTS test score. The minimum TOEFL iBT score required for admission is 104; the minimum IELTS score required is 7. Proof of English proficiency may be waived under certain criteria noted by UChicago GRAD Admissions.
+
+#### What are the main differences in programs and outcomes between the MBA/MS in Applied Data Science compared to Computer Science?
+The fields of Statistics, Mathematics, and Computer Science intersect with industry domains in different ways. The MPCS program focuses on the center of Computer Science, including Software Engineering, High Performance Computing, Data Analytics, and Application Development. The MS-ADS Program focuses at the intersection of multiple fields, such as Computer Science, Mathematics, and Statistics (including Statistical Inference, Linear/Non-Linear Models, Machine Learning, Natural Language Processing, and Deep Learning). The outcomes for MPCS students include Software Engineer (Developer), Senior Software Engineering Management, Software/Hardware Architect, and Senior Cyber Security Engineer. The outcomes for students in MS-ADS include roles as Data Scientist (most common), Senior Data Science Consultant, Business Intelligence (BI) Director, Data Visualization Manager, Data Analytics Engineer, and AI Solution Architect.
+
+### 2-Year Thesis Track Program
+
+#### What is the new 2-year thesis track program (18 courses), and how is it different from the 1-year program (12 courses)?
+Beginning in academic 2026-27, a limited number of In-Person, Full-Time students will have the opportunity to complete a 2-year version of the MS in Applied Data Science program. The 2-year program is completed over 21 months (2 academic years). Students in the 2-year program will complete 18 instead of 12 courses. The additional 6 courses consist of 4 additional elective courses (100 units each); and 2 required thesis courses (100 units each) that culminate in the completion of a required written thesis or thesis project. The thesis will be an extension of students’ previously completed Capstone Project. 2-year program students are highly encouraged to complete a research Capstone (as compared to a traditional, industry Capstone) for various reasons.
+The longer degree timeline offers more time to engage in academic and professional development while maintaining the same rigorous core curriculum and access to UChicago’s faculty and data science network. The first 12 of 18 courses that students complete in the 2-year program follow exactly the same course progression as those in the 1-year, 12-course program.
+The 2-year program is not currently available to those in the Online program and/or those pursuing the MS in Applied Data Science on a part-time basis.
+
+#### When can I apply for the 2-year thesis track program?
+The application for the Autumn 2026 2-Year Thesis Track closed on December 4, 2025. Future application timelines will be announced once available. Those who are not admitted to the 2-year program will be automatically considered for the 1-year 12 course program unless they choose to opt-out of consideration.
+
+#### May I switch between the 1- and 2-year programs after officially enrolling in the MS-ADS program?
+No. Once admitted to the 1-year program, there is no opportunity to enroll in the 2-year program. Those admitted to the 2-year program might, under extenuating case by case circumstances, graduate early after completing the initial 12 courses of the MS degree (4-5 quarters). Any such student must meet with program faculty and staff by the required deadlines in order to maintain good academic standing and/or visa compliance (if applicable).
+
+#### If I am admitted to the In-Person, Full-Time 1-year program, may I take any of the 2-year program electives?
+No, due to the limited number of spots available for the new 2-year program, the electives are reserved for only those students admitted to the 2-year program specifically. Should anything change, students will be notified.
+
+#### What is the 2-year program's thesis requirement?
+Those admitted to the full-time, in-person thesis track pathway (18 courses, 6 quarters of coursework) are required to complete and submit a written thesis. The thesis will be an individually authored text based on an area of interest from students’ Research Capstone Project. The thesis will be managed through the required thesis courses (2, 100 units each). A lead faculty member with knowledge of the student’s area of interest will supervise the thesis project and provide resources and support as needed.
+As an alternative to a traditional written thesis, students may opt to complete a thesis project that results in a ‘minimum viable product’ project. Through this option, students will complete a rigorous, multi-step ‘build’ and ‘marketing’ phase throughout the required 2 thesis courses. The thesis project will also be supervised by a program faculty member.
+
+#### How many spots are available in the new 2-year program?
+While subject to change, there are a projected ~50-55 spots available for the 2-year program. For application year 2025-26 (for entrance in autumn 2026), applicants must apply by the round two application deadline (December 4, 2025) in order to be considered for the 2-year program. Students admitted to the 2-year program will take the same 12 courses as those in the 1-year program, but they will complete 6 more courses over 2 additional quarters in their 2nd year of study for a total of 18 courses.

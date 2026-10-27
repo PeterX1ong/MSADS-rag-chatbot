@@ -1,0 +1,8 @@
+Source: https://datascience.uchicago.edu/people/jan-mrozowski-phd/
+Title: Jan Mrozowski, PhD
+
+# Jan Mrozowski, PhD
+Adjunct Assistant Professor
+Jan Mrozowski has 20+ years of experience in analytics and data science within finance, marketing, and risk functions, most recently at financial services organizations. His career spans the US, UK, Canada, and Australia, with roles at Qantas, Woolworths, GE Capital, Synchrony Financial, Citibank, and FlexShopper.
+At Citibank, he led Decision Management & Advanced Risk Analytics teams, building models spanning the breadth of the U.S. consumer base. At FlexShopper, he headed Modeling & Strategy.
+Jan holds a PhD in Economics, an MSc in Analytics from the University of Chicago, an MBA, and multiple professional accounting designations.

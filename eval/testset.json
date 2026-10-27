@@ -1,0 +1,169 @@
+{
+  "description": "Shared evaluation set for the MS in Applied Data Science RAG chatbot. Reference answers were written by hand from the site content scraped on 2026-10-27. If a re-scrape shows the site changed (e.g., new deadlines or tuition), update the affected references here so all branches keep scoring against the same ground truth.",
+  "scraped_on": "2026-10-27",
+  "questions": [
+    {
+      "id": "core_courses",
+      "question": "What are the core courses in the MS in Applied Data Science program?",
+      "reference": "The core courses are Time Series Analysis and Forecasting, Statistical Models for Data Science, Machine Learning I, Machine Learning II, Cloud-Native Data Engineering, Leadership and Consulting for Data Science, and the Data Science Capstone Project. The 12-course program consists of 6 core courses, 4 electives, and 2 capstone courses.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/online-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "admission_requirements",
+      "question": "What are the admission requirements for the MS in Applied Data Science program?",
+      "reference": "Applicants need a bachelor's degree and must submit a completed application that includes two letters of recommendation, a candidate statement of no more than 700 words, a resume/CV, a programming supplement (a PDF of up to two pages showing R or Python work), a virtual portfolio of short recorded video responses (one required, one optional), unofficial transcripts from all colleges and universities attended, and a $90 non-refundable application fee. Applicants who do not meet the English Language Proficiency criteria must submit TOEFL or IELTS scores. The GRE/GMAT is not required.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "capstone",
+      "question": "Can you provide information about the capstone project?",
+      "reference": "The Capstone Project is the culminating two-quarter experience of the program. Students work in faculty-mentored teams of four, guided by an instructor and a subject matter expert, to solve a real business problem for an industry sponsor using real data; students can also choose a research-focused capstone. Sponsors pay no fee and need no contract, but must provide a problem statement, data access, two or more points of contact, and regular (typically bi-weekly) meetings. Projects are placed in the Spring and Autumn quarters, with Spring being the largest cohort.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-projects/",
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "tuition",
+      "question": "How much is tuition for the program?",
+      "reference": "For Summer 2025 through Spring 2026, tuition is $6,384 per course, which is $76,608 for the 12-course program and $114,912 for the 18-course program, plus a $1,500 non-refundable enrollment deposit that is credited toward the first quarter's tuition. Tuition is expected to increase 3-7% per fiscal year, and the program awards partial tuition merit-based scholarships.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/tuition-fees-aid/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "online_vs_in_person",
+      "question": "How does the online program differ from the in-person program?",
+      "reference": "Both programs share the same curriculum (12 courses: 6 core, 4 electives, 2 capstone), faculty, and academic rigor, and both offer full- and part-time options starting in Autumn. The Online program is designed for working professionals with 2+ years of experience and combines live synchronous classes on weekday evenings at 6 pm CT and occasional Saturdays with asynchronous coursework, plus an optional in-person Immersion Weekend in Chicago; it does not provide visa sponsorship. The In-Person program meets in downtown Chicago (NBC Tower, Gleacher Center), mostly 6-9 pm Monday through Thursday, is visa-eligible for full-time students, and also offers a 2-year, 18-course thesis track.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/online-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "stem_opt",
+      "question": "Is the program STEM/OPT eligible for international students?",
+      "reference": "Yes. The full-time In-Person MS in Applied Data Science program is listed as a STEM-designated degree by the U.S. Department of Homeland Security for the purposes of the STEM OPT extension, although approval of STEM OPT is at the discretion of U.S. Citizenship and Immigration Services. Only the full-time in-person program is visa-eligible; the online program does not provide visa sponsorship.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/",
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "deadlines",
+      "question": "When are the application deadlines?",
+      "reference": "For the In-Person program: November 9, 2026 (first priority), December 7, 2026 (second priority), January 26, 2027 (international deadline for applicants requiring visa sponsorship), March 4, 2027 (third priority), May 6, 2027 (fourth priority), and June 23, 2027 (final deadline). For the Online program, the final deadline for Autumn 2027 entry is June 23, 2027. In-person decisions are released about 1-2 months after each deadline; online decisions are released on a rolling basis.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "gre_gmat",
+      "question": "Do I need to take the GRE or GMAT to apply?",
+      "reference": "No, the GRE/GMAT is not required for admission. Applicants may still submit scores if they wish; the GRE school code is 1832 and the GMAT school code is H9X-WG-70.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "recommendation_letters",
+      "question": "How many letters of recommendation are required, and who should write them?",
+      "reference": "Two letters of recommendation are required. At least one should ideally come from a direct manager/supervisor or internship supervisor who can speak to professional workplace skills. Recommended sources are professors, supervisors or managers, and professional mentors; letters from family members, friends, or peers are not accepted. Letters can be uploaded after the application is submitted, and recommenders must upload them through the link sent by the online application system.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "english_scores",
+      "question": "What are the minimum English proficiency test scores?",
+      "reference": "Applicants who do not meet the English Language Proficiency criteria must submit proof of proficiency. The minimum scores are TOEFL 102 (prior requirement) or 5 (current requirement), and IELTS 7, with no subscore requirements. A waiver policy is available.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "program_length",
+      "question": "How long does it take to complete the program?",
+      "reference": "In the 12-course program, full-time students typically finish in 4-5 quarters and part-time students in about 6 quarters, and all students must graduate within 4 years. The in-person 2-year thesis track (18 courses, full-time only) takes 21 months over 6 academic quarters.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "thesis_track",
+      "question": "What is the 2-year thesis track?",
+      "reference": "Starting in academic year 2026-27, the In-Person program offers a full-time-only 2-year (21-month) thesis track completed over 6 academic quarters, with the summer between years as a vacation quarter. Students complete 18 courses (6 core, 8 electives, 2 capstone, 2 independent study), the required Career Seminar, a 2-quarter Capstone Project, and a Master's thesis (a traditional written thesis or a project-based thesis).",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "scholarships",
+      "question": "Are scholarships available, and how do I apply for one?",
+      "reference": "Yes. The program awards partial tuition merit-based scholarships, including the Data Science Institute Scholarship and the MS in Applied Data Science Alumni Scholarship. No separate application is required: all applicants are automatically considered, and applying before the early deadline is recommended to maximize the chances of receiving a scholarship.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/tuition-fees-aid/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "electives",
+      "question": "What elective courses can I take?",
+      "reference": "Sample elective courses include Advanced Computer Vision with Deep Learning; Advanced Machine Learning and Artificial Intelligence; Applied Generative AI: Advanced Concepts & Multimodal Modeling; Bayesian Machine Learning with Generative AI Applications; Causal Models for Data Science; Data Science for Algorithmic Marketing; Data Science for Healthcare; Data Visualization Techniques; Deep Reinforcement Learning; Generative AI: Principles and Applications; MLOps and Inference Engineering; Next-Gen NLP: LLM and Agentic AI in Practice; Optimization and Simulation Methods for Data Science; Quantitative Finance: Methods and Applications; Real Time Intelligent Systems; and AI Agents for Supply Chains. The 12-course program includes 4 electives and the thesis track includes 8.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/online-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/course-progressions/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "class_location_schedule",
+      "question": "Where and when are in-person classes held?",
+      "reference": "In-person classes are held in downtown Chicago at the NBC Tower and the Gleacher Center. Most courses run from 6-9 pm Monday through Thursday, with some offered on Fridays and Saturdays and select courses during the day, so students can work or intern during the program.",
+      "reference_sources": [
+        "https://datascience.uchicago.edu/education/masters-programs/in-person-program/",
+        "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/"
+      ],
+      "in_scope": true
+    },
+    {
+      "id": "out_of_scope_pizza",
+      "question": "What is the best pizza place in Chicago?",
+      "reference": "",
+      "reference_sources": [],
+      "in_scope": false
+    },
+    {
+      "id": "out_of_scope_general",
+      "question": "What is the capital of Australia?",
+      "reference": "",
+      "reference_sources": [],
+      "in_scope": false
+    }
+  ]
+}

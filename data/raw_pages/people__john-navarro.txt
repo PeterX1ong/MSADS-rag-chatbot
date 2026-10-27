@@ -1,0 +1,8 @@
+Source: https://datascience.uchicago.edu/people/john-navarro/
+Title: John Navarro
+
+# John Navarro
+Adjunct Assistant Professor
+John Navarro is an Adjunct Instructor in the Master of Science in Applied Data Science program at the University of Chicago, bringing a unique blend of academic expertise and real-world industry experience to the classroom. He currently serves as Chief Financial Officer at John Burns Construction Company, where he leads financial operations, drives long-term strategic planning, and implements advanced analytics to guide organizational decision-making.
+Before assuming his current role, John built a diverse career in consulting, data science, and finance. He was a Strategy Consulting/Data Science Manager at McKinsey & Company, a Data Science Manager at Accenture, and a Senior Data Scientist at 84.51°, a leading data analytics firm. Earlier in his career, he specialized in algorithmic trading and financial modeling with HC Technologies, International Trading Group, and StoneX Group.
+A double graduate of the University of Chicago, John holds a Bachelor of Arts in Economics and a Master of Science in Applied Data Science. His teaching draws directly from his professional experiences, integrating statistical modeling, computational methods, and strategic insight to help students bridge theory with practice. Known for his industry-informed approach and commitment to mentorship, he challenges students to think critically, apply rigorous analytics, and connect their work to real-world impact.

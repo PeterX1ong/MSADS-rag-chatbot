@@ -1,0 +1,54 @@
+Source: https://datascience.uchicago.edu/news/should-you-choose-ms-in-data-science-or-ms-in-applied-data-science-at-uchicago/
+Title: Should You Choose MS in Data Science or MS in Applied Data Science at UChicago?
+
+# Should You Choose MS in Data Science or MS in Applied Data Science at UChicago?
+The University of Chicago’s Data Science Institute offers two cutting-edge master’s programs, each built for different types of learners and career goals. Whether you're aiming for a research-intensive path or looking to apply data science skills directly in industry, choosing between the MS in Data Science (MSDS) and the MS in Applied Data Science (MS-ADS) is all about finding the right fit. This guide breaks down the key differences to help you make an informed, confident decision.
+
+## Program Curriculum
+MS in Data Science: Research-Focused Program
+This research-oriented MSDS program consists of 9 courses and a comprehensive research project that provide rigorous training in data science fundamentals, scalable computing, machine learning, and AI, with a strong emphasis on the responsible use of data and algorithms. The program prepares students with the skills needed for research careers or doctoral studies in data science and related fields.
+Core strengths:
+- Deep dive into theoretical foundations
+- Faculty with research-focused backgrounds
+- Mathematical and statistical rigor
+- Preparation for research careers or PhD programs
+- Completion of a comprehensive, final research project with faculty mentors or independently
+MS in Applied Data Science: Real-World Application
+The MS-ADS program delivers an intensive, industry-focused curriculum that transforms students to thrive as data science professionals. Students can complete either a 12-course program or an expanded 18-course thesis track, gaining hands-on expertise across the full spectrum of data science, from statistical modeling and machine learning to data engineering, cloud computing, and AI principles. The program prepares students to be job-ready and make an immediate impact across industries.
+Core strengths:
+- Modern tools and machine learning methods
+- Faculty with both active industry and research experience across diverse fields
+- Collaborative, project-based learning
+- Industry-focused skill development
+- Students complete a final capstone project
+New for Autumn 2026: The MS-ADS program is offering an optional two-year thesis track, combining applied training with a faculty-supervised written or project-based thesis.
+
+## Campus Location
+MS in Data Science: Immersive Campus Experience
+Offered exclusively on UChicago’s historic Hyde Park campus, the MSDS program provides full immersion in university life. Students benefit from direct faculty interaction, cross-disciplinary collaboration opportunities, and access to the broader intellectual community that defines the University of Chicago experience.
+MS in Applied Data Science: Designed for Today’s Professionals
+With both online and in-person options (held at UChicago’s downtown facilities in NBC Tower), the MS-ADS program accommodates diverse lifestyles and career demands. Students can choose full-time or part-time enrollment, making it an ideal choice for working professionals seeking to advance their skillset without pausing their career.
+
+## Research Opportunities
+MSDS: Faculty-Mentored Research
+MSDS students are actively encouraged to join faculty research projects, contributing to cutting-edge work that advances the field. These research experiences provide pathways to PhD programs and open doors to careers in R&D across academia and industry.
+MS-ADS: Applied Research Through the New Thesis Track
+Beginning in Autumn 2026, MS-ADS students can pursue the 2-Year Thesis track option, where students will expand their applied training through a faculty-supervised thesis, either a traditional written work or a project-based thesis that builds toward a minimum viable product.
+
+## Making Your Decision
+Choose the MS in Data Science if you:
+- Are passionate about understanding the theoretical foundations of data science
+- Want to pursue research alongside world-class faculty
+- Are considering a PhD or research-focused career
+- Thrive in a traditional academic environment
+Choose the MS in Applied Data Science if you:
+- Want to immediately apply data science skills in industry settings
+- Need online learning options or prefer full-time or part-time study
+- Prefer project-based, collaborative learning
+- Would like a balance of theoretical rigor and practical application
+
+## Start Your Data Science Career at the University of Chicago
+Both graduate programs provide exceptional preparation for data science careers, but with different emphases that align with your professional goals and learning style. Whether you’re drawn to theoretical depth in machine learning and AI or practical application in business, tech, or healthcare, the University of Chicago’s Data Science Institute offers a world-class education that will challenge you to excel in the rapidly growing field of data science.
+
+## Ready to Apply to One of Our Programs?
+Learn more about admissions requirements, data science curriculum details, application deadlines, and career outcomes by visiting the Data Science Institute’s website or contacting our admissions team. Join the next generation of data scientists with a University of Chicago data science degree.

@@ -1,0 +1,24 @@
+# Tested with Python 3.13. Versions are pinned so everyone's scores are comparable.
+
+# Scraping
+requests==2.32.5
+beautifulsoup4==4.13.5
+lxml==5.3.0
+
+# RAG pipeline
+python-dotenv==1.2.2
+openai==3.35.1
+langchain-core==1.6.12
+langchain-openai==1.7.2
+langchain-text-splitters==1.1.2
+langchain-chroma==1.1.0
+chromadb==1.5.9
+
+# Evaluation -- ragas 0.4.x downgrades langchain-openai/openai, so stay on 0.3.1
+ragas==0.3.1
+
+# Notebook
+pandas==2.3.3
+matplotlib==3.10.6
+jupyter==1.1.1
+ipykernel==6.31.0

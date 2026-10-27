@@ -1,0 +1,40 @@
+Source: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/capstone-project-archive/
+Title: Capstone Project Archive
+
+# Capstone Project Archive
+This page showcases a comprehensive collection of Capstone Projects completed by students in the MS in Applied Data Science program. Each project reflects how students apply advanced data science methods to real-world challenges, working with authentic data across industries and research domains.
+Select projects are highlighted as Featured after being recognized as Best in Show during the Capstone Showcase, an end-of-program presentation series where student teams present their work to faculty, peers, and industry partners.
+Project abstracts highlight the problem context, data sources, analytical approaches, and outcomes, offering a closer look at the technical and strategic thinking behind each solution. Together, these projects illustrate the breadth of skills developed in the program—from data engineering and machine learning to experimentation, modeling, and data storytelling.
+Search project abstracts by keyword, including techniques, tools, or industry focus (e.g., machine learning, NLP, healthcare, finance).
+Search
+Sort:
+Featured
+
+## Pyxidr | Dynamic Re-Optimization of Insurance-Backed Securities Using Agentic A
+Featured
+
+## Research (AI Engineering) | Physics-Regularized Time-Series Encoders for DCE-MRI Kinetic Analysis
+Featured
+
+## Research (Agentic AI) | AI Home Design System
+Featured
+
+## Research (Booth) | Data for the Common Good EPA Capstone
+Featured
+
+## Research (Booth) | Dinkster: Computer Vision + LLM Pickleball Coaching
+Featured
+
+## Argonne | Rezzy: AI Support Chatbot for EV Charger Reservation App (EVrez)
+Featured
+
+## Inference Analytics | Automated ICD-10 Code Prediction for Healthcare Reports Using Large Language Models
+Featured
+
+## Research (GPT for Healthcare) | MCP-driven Multi-Agent RAG-Enhanced LLM System for Prostate Cancer Temporal Summarization
+Featured
+
+## Global IQ | Optimizing ROI of Global Talent Mobility Through Predictive Modeling and Optimization for Corporate Programs & Policies
+Featured
+
+## Research (GPT for Healthcare) | Applications of Generative AI in Emergency Department Admission Evaluation

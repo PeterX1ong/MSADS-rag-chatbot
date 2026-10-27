@@ -1,0 +1,7 @@
+Source: https://datascience.uchicago.edu/people/jason-edgar/
+Title: Jason Edgar
+
+# Jason Edgar
+Adjunct Assistant Professor
+Jason Edgar is an analytics leader and educator with more than a decade of experience designing and implementing pragmatic data science solutions to real-world problems. At Complete Wellness Solutions (CWS), he specializes in data-driven population health management for employers, hospital systems, and health plans, unifying siloed health data to support risk identification and stratification, targeted interventions, and program evaluation. He previously worked at Astellas Pharma, United Airlines, and Analysis Group.
+Jason teaches Data Science for Healthcare and is a graduate of the program, where his capstone evaluation of employer wellness programs won best in show. He holds a BS in Economics and Environmental Studies from Tulane University. Outside of work and teaching, he can usually be found running on the lakefront path.

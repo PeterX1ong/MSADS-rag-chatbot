@@ -1,0 +1,2 @@
+# Normalize line endings so Windows and Mac teammates produce clean diffs
+* text=auto

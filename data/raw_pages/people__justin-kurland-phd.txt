@@ -1,0 +1,6 @@
+Source: https://datascience.uchicago.edu/people/justin-kurland-phd/
+Title: Justin Kurland, PhD
+
+# Justin Kurland, PhD
+Adjunct Associate Professor; Vice President, Tech Fellow in the Engineering Division at Goldman Sachs
+Dr. Justin Kurland is Vice President, Tech Fellow in the Engineering Division at Goldman Sachs. Justin’s 20+ years in data and analytics include a senior lectureship in the Department of Computer Science at the University of Waikato, 50+ peer-reviewed publications, and numerous open-source contributions in Machine Learning and Time Series forecasting. With degrees from Rutgers University, Boston University, and University College London, Justin also has extensive data science consulting experience working with organizations like Microsoft and the UK Home Office.

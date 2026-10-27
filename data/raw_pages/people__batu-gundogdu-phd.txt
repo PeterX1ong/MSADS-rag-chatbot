@@ -1,0 +1,9 @@
+Source: https://datascience.uchicago.edu/people/batu-gundogdu-phd/
+Title: Batu Gundogdu, PhD
+
+# Batu Gundogdu, PhD
+Associate Clinical Professor
+Batu Gundogdu holds a Ph.D. in Electrical Engineering and is an Associate Clinical Professor at the University of Chicago, bringing over 15 years of experience developing deep-learning models across the fields of speech, language, and medical imaging. Most recently, he served as Head of AI Engineering at Eva, an AI compute startup, building algorithms for a novel next-generation AI hardware.
+Previously, Dr. Gundogdu served as Research Faculty in the Department of Radiology at the University of Chicago for four years, where he led AI efforts at the MRI Research Center.
+In the UChicago MS in Applied Data Science program, he shares his practical insights and experiences with students on being an AI engineer and scientist across diverse venues, including research institutions (UChicago MRI Research Center), corporate companies (Analog Devices – ADI), government (Navy and NATO), and startups (Eva). He teaches courses on Bayesian Machine Learning for Generative AI and Deep Learning.
+Dr. Gundogdu also teaches in UChicago’s MS in Applied Artificial Intelligence program, where he is a founding faculty member. Drawing on his experience across research, industry, and startups, he helps students connect advanced AI concepts with the realities of building and deploying AI systems in practice. He is also a Co-Founder of VicVox, a boutique AI startup analyzing social discourse.
