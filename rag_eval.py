@@ -104,8 +104,11 @@ def _ragas_scores(runs, judge_model, embed_model):
         print(f"Judge cost for this run: ~${cost:.2f}")
     except Exception as e:  # the estimate is informational; never lose the scores over it
         print(f"Judge cost unavailable ({e})")
-    columns = {metric.name: label for label, metric in metrics.items()}  # read names after evaluate() runs
-    return result.to_pandas().rename(columns=columns)[list(metrics)]
+    out = result.to_pandas()
+    # RAGAS may decorate column names, e.g. "factual_correctness(mode=f1)" for metric "factual_correctness"
+    columns = {col: label for label, metric in metrics.items() for col in out.columns
+               if col == metric.name or col.startswith(f"{metric.name}(")}
+    return out.rename(columns=columns)[list(metrics)]
 
 
 def score(runs, fallback: str, judge_model=JUDGE_MODEL, embed_model=JUDGE_EMBED_MODEL) -> pd.DataFrame:
@@ -119,6 +122,10 @@ def score(runs, fallback: str, judge_model=JUDGE_MODEL, embed_model=JUDGE_EMBED_
     ragas_df = _ragas_scores([r for r in runs if r["in_scope"]], judge_model, embed_model)
     ragas_df.index = df.index[in_scope]
     df = df.join(ragas_df)
+    # A fallback makes no claims, so there's nothing to check for faithfulness (RAGAS returns an arbitrary 0-0.5);
+    # the miss is already counted by `answered` and `factual_correctness`.
+    df.loc[in_scope & df["refused"], "faithfulness"] = math.nan
+    df[["answered", "source_hit"]] = df[["answered", "source_hit"]].astype(object)
     df.loc[~in_scope, ["answered", "source_hit"]] = None  # not meaningful for out-of-scope questions
     return df[["id", "question", "in_scope", *METRICS, "refused", "answer", "sources"]]
 

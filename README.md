@@ -35,8 +35,9 @@ on their own branch and scores it with the same evaluation, so we can compare ap
    ```
    `.env` is git-ignored. Never commit a key.
 3. Open `rag_baseline.ipynb` and run all cells.
-   - `RUN_SCRAPER = True` re-crawls the site, which takes about 2 minutes. Set it to `False` to use the committed
-     `data/pages.jsonl`. When comparing approaches, use `False` so everyone works from the same data.
+   - `RUN_SCRAPER = False` (the default) uses the committed `data/pages.jsonl`. Keep it that way when comparing
+     approaches so everyone works from the same data. Set it to `True` only to re-crawl the site, which takes about
+     2 minutes.
    - `chroma_db/` is rebuilt automatically and isn't committed.
 
 ## Evaluation rules (please read before comparing approaches)
