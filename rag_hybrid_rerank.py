@@ -8,6 +8,7 @@ leaderboard difference against `heading_aware` comes from the retriever alone.
     python rag_hybrid_rerank.py --dry-run          # answers + source_hit only, no judge calls (cents)
     python rag_hybrid_rerank.py                    # full RAGAS run, saves eval/results/hybrid_rerank.* (~$1)
     python rag_hybrid_rerank.py --no-rerank        # ablation: hybrid without the reranker -> hybrid.*
+    python rag_hybrid_rerank.py --official         # the 12 Canvas questions (eval/testset_official.json) -> *_official.*
 """
 import argparse
 import json
@@ -133,16 +134,17 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="skip the RAGAS judge; print answers and source_hit")
     parser.add_argument("--no-rerank", action="store_true", help="hybrid retrieval without the LLM reranker")
+    parser.add_argument("--official", action="store_true", help="evaluate on the 12 Canvas sample questions")
     args = parser.parse_args()
 
     chunks = heading_aware_chunks(load_documents())
     store = build_store(chunks, COLLECTION)
     retriever = HybridRerankRetriever(vectorstore=store, chunks=chunks, top_k=TOP_K,
                                       rerank=not args.no_rerank, rerank_model=RERANK_MODEL)
-    run_name = "hybrid" if args.no_rerank else "hybrid_rerank"
+    run_name = ("hybrid" if args.no_rerank else "hybrid_rerank") + ("_official" if args.official else "")
     print(f"{len(chunks)} chunks | run: {run_name}")
 
-    testset = rag_eval.load_testset()
+    testset = rag_eval.load_testset(rag_eval.EVAL_DIR / "testset_official.json" if args.official else rag_eval.TESTSET_PATH)
     runs = rag_eval.collect(lambda q: ask(q, retriever, verbose=args.dry_run), testset)
 
     if args.dry_run:
