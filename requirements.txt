@@ -13,9 +13,12 @@ langchain-openai==1.7.2
 langchain-text-splitters==1.1.2
 langchain-chroma==1.1.0
 chromadb==1.5.9
+rank_bm25==0.2.2
 
 # Evaluation -- ragas 0.4.x downgrades langchain-openai/openai, so stay on 0.3.1
 ragas==0.3.1
+langchain-community==0.4.1  # 0.4.2 removed the vertexai module ragas 0.3.1 imports
+dataclasses-json==0.6.7
 
 # Notebook
 pandas==2.3.3
