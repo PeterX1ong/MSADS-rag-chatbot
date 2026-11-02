@@ -1,5 +1,6 @@
 # Secrets -- never commit API keys (copy .env.example to .env instead)
 .env
+.streamlit/secrets.toml
 
 # Vector store: rebuilt by the notebook from data/pages.jsonl
 chroma_db/

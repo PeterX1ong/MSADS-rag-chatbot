@@ -18,6 +18,7 @@ on their own branch and scores it with the same evaluation, so we can compare ap
 | `data/pages.jsonl` | Scraped pages, one JSON record per page (`url`, `title`, `text`, ...). Committed so everyone uses the same data |
 | `data/raw_pages/*.txt` | The same pages as readable text files |
 | `rag_baseline.ipynb` | End-to-end pipeline: scrape, chunk, embed into Chroma, answer with GPT, evaluate |
+| `app.py` | Streamlit chat UI on the hybrid + rerank pipeline: `streamlit run app.py` |
 | `rag_eval.py` | Shared evaluation module (RAGAS metrics, saving results, leaderboard) |
 | `eval/testset.json` | Shared test set: 15 in-scope questions with hand-written reference answers, plus 2 out-of-scope questions |
 | `eval/results/` | One `<run_name>.json` (summary) and `.csv` (per question) file per evaluated approach |
@@ -102,5 +103,5 @@ All metrics are averaged over in-scope questions, range from 0 to 1, and are bet
 - [x] RAGAS evaluation with a shared test set
 - [ ] Retrieval improvements: hybrid search, reranking
 - [ ] Responsible AI: PII redaction, groundedness guardrails
-- [ ] Streamlit UI
+- [x] Streamlit UI
 - [ ] Documentation and presentation

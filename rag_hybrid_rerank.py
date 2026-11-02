@@ -15,6 +15,7 @@ import argparse
 import json
 import os
 import warnings
+from pathlib import Path
 
 from dotenv import load_dotenv
 
@@ -29,7 +30,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 
-import rag_eval
 import scraper
 from hybrid_retriever import HybridRerankRetriever
 
@@ -40,7 +40,7 @@ TOP_K = 4
 EMBED_MODEL = "text-embedding-3-small"
 LLM_MODEL = "gpt-4o-mini"
 RERANK_MODEL = "gpt-4o-mini"
-CHROMA_DIR = "chroma_db"
+CHROMA_DIR = str(Path(__file__).parent / "chroma_db")
 COLLECTION = "msads_headings"
 
 FALLBACK = "I don't have that information in the MS in Applied Data Science website content."
@@ -164,6 +164,8 @@ def ask(question: str, retriever, generate, verbose: bool = True) -> dict:
 
 
 def main():
+    import rag_eval  # pulls in ragas, which the Streamlit app doesn't need
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="skip the RAGAS judge; print answers and source_hit")
     parser.add_argument("--no-rerank", action="store_true", help="hybrid retrieval without the LLM reranker")
