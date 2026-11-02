@@ -18,9 +18,12 @@ on their own branch and scores it with the same evaluation, so we can compare ap
 | `data/pages.jsonl` | Scraped pages, one JSON record per page (`url`, `title`, `text`, ...). Committed so everyone uses the same data |
 | `data/raw_pages/*.txt` | The same pages as readable text files |
 | `rag_baseline.ipynb` | End-to-end pipeline: scrape, chunk, embed into Chroma, answer with GPT, evaluate |
-| `app.py` | Streamlit chat UI on the hybrid + rerank pipeline: `streamlit run app.py` |
+| `hybrid_retriever.py` | `HybridRerankRetriever`: dense + BM25 fused with RRF, then an LLM rerank. Drop-in LangChain retriever |
+| `rag_hybrid_rerank.py` | Heading-aware pipeline with the hybrid retriever, as a script: answers, RAGAS scoring, prompt versions |
+| `app.py` | Streamlit chat UI on the hybrid + rerank pipeline |
 | `rag_eval.py` | Shared evaluation module (RAGAS metrics, saving results, leaderboard) |
 | `eval/testset.json` | Shared test set: 15 in-scope questions with hand-written reference answers, plus 2 out-of-scope questions |
+| `eval/testset_official.json` | The 12 Canvas sample questions DSI staff use to test the bot. Separate from the shared test set |
 | `eval/results/` | One `<run_name>.json` (summary) and `.csv` (per question) file per evaluated approach |
 
 ## Setup
@@ -40,6 +43,12 @@ on their own branch and scores it with the same evaluation, so we can compare ap
      approaches so everyone works from the same data. Set it to `True` only to re-crawl the site, which takes about
      2 minutes.
    - `chroma_db/` is rebuilt automatically and isn't committed.
+4. Start the chatbot:
+   ```bash
+   streamlit run app.py
+   ```
+   The first run embeds the chunks if `chroma_db/` doesn't match them. When deploying, set `OPENAI_API_KEY` in the
+   host's secrets (for Streamlit, `.streamlit/secrets.toml`, which is git-ignored). `RAG_PROMPT=v2` switches the prompt.
 
 ## Evaluation rules (please read before comparing approaches)
 
@@ -74,6 +83,33 @@ All metrics are averaged over in-scope questions, range from 0 to 1, and are bet
 | `answered` | end-to-end | Share of in-scope questions answered instead of getting the fallback message |
 | `out_of_scope_refusal` | guardrail | Share of out-of-scope questions that correctly got the fallback message |
 
+## Hybrid retrieval + rerank
+
+`rag_hybrid_rerank.py` changes only the retriever compared with `heading_aware` (same data, chunking, prompt, generator,
+and `top_k=4`), so the score difference comes from the retriever. Dense and BM25 each return 20 candidates, Reciprocal
+Rank Fusion merges them, and `gpt-4o-mini` scores the top 20 from 0 to 3 for how directly they answer the question.
+
+```bash
+python rag_hybrid_rerank.py --dry-run     # answers and source_hit only, no judge calls
+python rag_hybrid_rerank.py               # RAGAS on the shared test set -> hybrid_rerank
+python rag_hybrid_rerank.py --no-rerank   # hybrid without the reranker -> hybrid
+python rag_hybrid_rerank.py --official    # RAGAS on the 12 Canvas questions -> hybrid_rerank_official
+python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_rerank_prompt_v2
+```
+
+| Run | Test set | `context_precision` | `context_recall` | `faithfulness` | `answer_relevancy` | `factual_correctness` |
+|---|---|---|---|---|---|---|
+| `heading_aware` | shared | 0.60 | 0.76 | 0.98 | 0.76 | 0.55 |
+| `hybrid_rerank` | shared | 0.73 | 0.77 | 0.98 | 0.76 | 0.55 |
+| `hybrid_rerank_prompt_v2` | shared | 0.85 | 0.77 | 0.97 | 0.67 | 0.50 |
+| `hybrid_rerank_official` | official | 0.94 | 0.93 | 0.97 | 0.80 | 0.64 |
+| `hybrid_rerank_prompt_v2_official` | official | 0.90 | 0.93 | 0.92 | 0.74 | 0.51 |
+
+- The `_official` runs use a different test set, so compare them only with each other.
+- `v1` stays the default prompt because `v2` didn't score higher. Much of that gap looks like judge noise: nearly
+  identical deadline lists scored 0.92 and 0.00. RAGAS also marks "the context doesn't specify" lines as noncommittal.
+  With this few questions, average two or more runs before choosing between prompts.
+
 ## Team workflow
 
 1. Create your own branch from `main`:
@@ -101,7 +137,8 @@ All metrics are averaged over in-scope questions, range from 0 to 1, and are bet
 - [x] Baseline RAG: recursive chunking, Chroma, `gpt-4o-mini`, source citations, fallback for unanswerable questions
 - [x] Improvement 1: heading-aware chunks with breadcrumbs and outline chunks
 - [x] RAGAS evaluation with a shared test set
-- [ ] Retrieval improvements: hybrid search, reranking
+- [x] Retrieval improvements: hybrid search, reranking
 - [ ] Responsible AI: PII redaction, groundedness guardrails
 - [x] Streamlit UI
+- [ ] Deployment
 - [ ] Documentation and presentation
