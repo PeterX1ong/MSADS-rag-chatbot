@@ -20,7 +20,8 @@ on their own branch and scores it with the same evaluation, so we can compare ap
 | `rag_baseline.ipynb` | End-to-end pipeline: scrape, chunk, embed into Chroma, answer with GPT, evaluate |
 | `hybrid_retriever.py` | `HybridRerankRetriever`: dense + BM25 fused with RRF, then an LLM rerank. Drop-in LangChain retriever |
 | `rag_hybrid_rerank.py` | Heading-aware pipeline with the hybrid retriever, as a script: answers, RAGAS scoring, prompt versions |
-| `app.py` | Streamlit chat UI on the hybrid + rerank pipeline |
+| `guardrails.py` | Responsible-AI checks on every answer: personal email/phone redaction and an LLM groundedness check |
+| `app.py` | Streamlit chat UI on the hybrid + rerank pipeline, with the guardrails applied |
 | `rag_eval.py` | Shared evaluation module (RAGAS metrics, saving results, leaderboard) |
 | `eval/testset.json` | Shared test set: 15 in-scope questions with hand-written reference answers, plus 2 out-of-scope questions |
 | `eval/testset_official.json` | The 12 Canvas sample questions DSI staff use to test the bot. Separate from the shared test set |
@@ -138,7 +139,7 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
 - [x] Improvement 1: heading-aware chunks with breadcrumbs and outline chunks
 - [x] RAGAS evaluation with a shared test set
 - [x] Retrieval improvements: hybrid search, reranking
-- [ ] Responsible AI: PII redaction, groundedness guardrails
+- [x] Responsible AI: PII redaction, groundedness check (shown as a warning, not blocking)
 - [x] Streamlit UI
 - [ ] Deployment
 - [ ] Documentation and presentation

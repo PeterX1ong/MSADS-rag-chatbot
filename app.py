@@ -4,6 +4,8 @@ Streamlit chat UI for the MS in Applied Data Science RAG chatbot.
     streamlit run app.py
 
 Uses the same pipeline as rag_hybrid_rerank.py: heading-aware chunks, hybrid retrieval + LLM rerank, gpt-4o-mini.
+Every answer goes through guardrails.py: personal emails and phone numbers are redacted, and claims the retrieved
+passages don't support are listed in a warning under the answer.
 The key comes from .env locally, or from Streamlit secrets (OPENAI_API_KEY) when deployed.
 """
 import os
@@ -13,6 +15,7 @@ import streamlit as st
 from dotenv import load_dotenv
 
 PROMPT_VERSION = os.getenv("RAG_PROMPT", "v1")  # v1 scored best on RAGAS; see eval/results/
+PII_HOLDBACK = 40  # chars held back while streaming, so a half-written email or phone number is never on screen
 SAMPLE_QUESTIONS = [
     "How much is tuition for the program?",
     "What are the deadlines for the in-person program?",
@@ -34,6 +37,7 @@ if not os.getenv("OPENAI_API_KEY"):
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
+from guardrails import find_unsupported_claims, redact_pii
 from hybrid_retriever import HybridRerankRetriever
 from rag_hybrid_rerank import (CHROMA_DIR, COLLECTION, EMBED_MODEL, FALLBACK, RERANK_MODEL, TOP_K, build_store,
                                format_docs, heading_aware_chunks, load_documents, make_generator)
@@ -74,19 +78,33 @@ def show_sources(sources: list[tuple[str, str]]) -> None:
         st.caption("Sources: " + " · ".join(f"[{title}]({url})" for title, url in sources))
 
 
+def show_unsupported(claims: list[str]) -> None:
+    if claims:
+        st.warning("Some of this answer couldn't be verified against the program website. Please double-check:\n"
+                   + "\n".join(f"- {to_markdown(c)}" for c in claims))
+
+
 def answer(question: str) -> dict:
-    """Retrieve, stream the answer into the chat, and return the message to keep in the history."""
+    """Retrieve, stream the answer into the chat, run the guardrails, and return the message for the history."""
     retriever, generate = load_pipeline()
     with st.spinner("Searching the program website..."):
         docs = retriever.invoke(question)
+    context = format_docs(docs)
     placeholder, text = st.empty(), ""
-    for piece in generate.stream({"context": format_docs(docs), "question": question}):
+    for piece in generate.stream({"context": context, "question": question}):
         text += piece
-        placeholder.markdown(to_markdown(split_sources(text)[0]))
-    body, sources_text = split_sources(text)
-    sources = [] if FALLBACK in body else cited_sources(sources_text, docs)
+        placeholder.markdown(to_markdown(redact_pii(split_sources(text)[0])[:-PII_HOLDBACK]))
+    raw_body, sources_text = split_sources(text)
+    body = redact_pii(raw_body)
+    placeholder.markdown(to_markdown(body))
+    sources, unsupported = [], []
+    if FALLBACK not in raw_body:
+        sources = cited_sources(sources_text, docs)
+        with st.spinner("Checking the answer against the sources..."):
+            unsupported = find_unsupported_claims(question, raw_body, context) or []
     show_sources(sources)
-    return {"role": "assistant", "content": body, "sources": sources}
+    show_unsupported(unsupported)
+    return {"role": "assistant", "content": body, "sources": sources, "unsupported": unsupported}
 
 
 st.title("MS in Applied Data Science Chatbot")
@@ -100,6 +118,7 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(to_markdown(message["content"]))
         show_sources(message.get("sources", []))
+        show_unsupported(message.get("unsupported", []))
 
 question = st.chat_input("Ask about admissions, tuition, courses...")
 samples = st.empty()
