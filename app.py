@@ -14,7 +14,7 @@ import re
 import streamlit as st
 from dotenv import load_dotenv
 
-PROMPT_VERSION = os.getenv("RAG_PROMPT", "v1")  # v1 scored best on RAGAS; see eval/results/
+PROMPT_VERSION = os.getenv("RAG_PROMPT", "v3")  # v3 = v1 + rules for synonyms and actions; see rag_hybrid_rerank.py
 PII_HOLDBACK = 40  # chars held back while streaming, so a half-written email or phone number is never on screen
 SAMPLE_QUESTIONS = [
     "How much is tuition for the program?",
@@ -57,7 +57,7 @@ def load_pipeline():
 
 def split_sources(text: str) -> tuple[str, str]:
     """Split a generated answer into its body and the trailing 'Sources:' section."""
-    parts = re.split(r"\n\s*\**Sources?\**:", text, maxsplit=1)
+    parts = re.split(r"\s*\**Sources?\**:", text, maxsplit=1)  # usually on its own line, sometimes mid-paragraph
     return parts[0].strip(), parts[1] if len(parts) > 1 else ""
 
 

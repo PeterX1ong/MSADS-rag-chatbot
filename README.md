@@ -49,7 +49,8 @@ on their own branch and scores it with the same evaluation, so we can compare ap
    streamlit run app.py
    ```
    The first run embeds the chunks if `chroma_db/` doesn't match them. When deploying, set `OPENAI_API_KEY` in the
-   host's secrets (for Streamlit, `.streamlit/secrets.toml`, which is git-ignored). `RAG_PROMPT=v2` switches the prompt.
+   host's secrets (for Streamlit, `.streamlit/secrets.toml`, which is git-ignored). The app uses prompt `v3` by
+   default; `RAG_PROMPT=v1` or `v2` switches it.
 
 ## Evaluation rules (please read before comparing approaches)
 
@@ -110,6 +111,11 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
 - `v1` stays the default prompt because `v2` didn't score higher. Much of that gap looks like judge noise: nearly
   identical deadline lists scored 0.92 and 0.00. RAGAS also marks "the context doesn't specify" lines as noncommittal.
   With this few questions, average two or more runs before choosing between prompts.
+- `v3` is `v1` plus three targeted rules: passages that use different words than the question still count, actions
+  such as "Schedule an Appointment" are passed on, and partial answers are given. `v1` refused the official question
+  about an advising appointment even though the admissions-counselor chunk ranked first. With `v3` that question is
+  answered, the other 11 official answers are unchanged, and both out-of-scope questions are still refused (dry runs,
+  no RAGAS judge yet). The app uses `v3`.
 
 ## Team workflow
 
