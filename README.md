@@ -7,6 +7,8 @@ This is a retrieval-augmented generation (RAG) chatbot that answers questions ab
 program using only the program's website. Answers cite the source pages. When the site doesn't contain the answer,
 the chatbot says so instead of guessing.
 
+**Live app:** https://msads-rag-chatbot.streamlit.app/ (see [Deployment](#deployment)).
+
 `main` holds the **baseline** pipeline and a shared **RAGAS evaluation**. Each teammate builds an alternative approach
 on their own branch and scores it with the same evaluation, so we can compare approaches and pick the best.
 
@@ -49,9 +51,44 @@ on their own branch and scores it with the same evaluation, so we can compare ap
    ```bash
    streamlit run app.py
    ```
-   The first run embeds the chunks if `chroma_db/` doesn't match them. When deploying, set `OPENAI_API_KEY` in the
-   host's secrets (for Streamlit, `.streamlit/secrets.toml`, which is git-ignored). The app uses prompt `v3` by
-   default; `RAG_PROMPT=v1` or `v2` switches it.
+   The first run embeds the chunks if `chroma_db/` doesn't match them. The app uses prompt `v3` by default;
+   `RAG_PROMPT=v1` or `v2` switches it.
+
+## Deployment
+
+The app runs on [Streamlit Community Cloud](https://share.streamlit.io) at
+https://msads-rag-chatbot.streamlit.app/.
+
+| Setting | Value |
+|---|---|
+| Repository | `PeterX1ong/MSADS-rag-chatbot` (a copy of this repo, since the cloud host needs access to it) |
+| Branch / main file | `PeterX` / `app.py` |
+| Python | **3.13**. The default 3.14 fails to build the pinned `lxml==5.3.0`, and the version can only be changed by deleting and redeploying the app |
+| Secrets | `OPENAI_API_KEY = "sk-..."` under the app's Settings → Secrets. Never in the code or `config.toml` |
+
+**Updating the live app.** Streamlit Cloud watches the deploy branch and redeploys on every push, usually within a
+minute or two. A local clone has two remotes:
+
+```bash
+git remote add mine https://github.com/PeterX1ong/MSADS-rag-chatbot.git   # once
+git push origin PeterX    # team repo
+git push mine PeterX      # deploy repo: this is what updates the live app
+```
+
+| Change | What happens |
+|---|---|
+| Code, prompts, README | Picked up automatically after the push |
+| `requirements.txt` | Dependencies reinstall, which takes a few minutes. Failures show "Error installing requirements" |
+| `.streamlit/config.toml` | Usually picked up automatically; otherwise use **Reboot app** |
+| API key | Change it in Settings → Secrets (the app restarts). The local `.env` is separate, so update both |
+| Python version | Delete the app and deploy it again |
+
+Notes:
+
+- Logs are under **Manage app** (bottom right of the live app). That's the first place to look when it fails.
+- `chroma_db/` isn't committed, so every start re-embeds the 718 chunks (about a minute, under $0.01).
+- Free apps sleep after a period without visitors. Open the app once before a demo or grading so it's awake.
+- Every question costs a little on the OpenAI key in Secrets. Set a monthly spending limit on that key.
 
 ## Evaluation rules (please read before comparing approaches)
 
@@ -148,5 +185,5 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
 - [x] Retrieval improvements: hybrid search, reranking
 - [x] Responsible AI: PII redaction, groundedness check (shown as a warning, not blocking)
 - [x] Streamlit UI
-- [ ] Deployment
+- [x] Deployment: Streamlit Community Cloud, https://msads-rag-chatbot.streamlit.app/
 - [ ] Documentation and presentation
