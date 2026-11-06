@@ -23,7 +23,12 @@ SAMPLE_QUESTIONS = [
     "Is the program STEM/OPT eligible?",
 ]
 
-st.set_page_config(page_title="MS-ADS Chatbot", page_icon="🎓")
+ASSETS = os.path.join(os.path.dirname(__file__), "assets")
+LOGO, ICON = os.path.join(ASSETS, "logo.svg"), os.path.join(ASSETS, "icon.svg")
+PROGRAM_URL = "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/"
+
+st.set_page_config(page_title="MS-ADS Chatbot", page_icon=ICON)
+st.logo(LOGO, size="large", link=PROGRAM_URL, icon_image=ICON)
 
 load_dotenv()
 try:
@@ -107,6 +112,15 @@ def answer(question: str) -> dict:
     return {"role": "assistant", "content": body, "sources": sources, "unsupported": unsupported}
 
 
+with st.sidebar:
+    st.markdown("### About")
+    st.markdown("Ask about admissions, tuition, deadlines, courses, and visas for the UChicago "
+                f"[MS in Applied Data Science]({PROGRAM_URL}).")
+    st.markdown("Answers come only from the program website and cite their source pages. A warning appears when "
+                "part of an answer can't be verified against those pages.")
+    st.caption("Student project for ADSP 32027 Generative AI Principles. Not an official University of Chicago "
+               "service. Please confirm important details with the admissions team.")
+
 st.title("MS in Applied Data Science Chatbot")
 st.caption("Answers come only from the UChicago program website. Each question is answered on its own, and "
            "important details should be confirmed with the admissions team.")
@@ -114,8 +128,10 @@ st.caption("Answers come only from the UChicago program website. Each question i
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+AVATARS = {"assistant": ICON, "user": ":material/person:"}
+
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    with st.chat_message(message["role"], avatar=AVATARS[message["role"]]):
         st.markdown(to_markdown(message["content"]))
         show_sources(message.get("sources", []))
         show_unsupported(message.get("unsupported", []))
@@ -131,9 +147,9 @@ if not st.session_state.messages and not question:
 if question:
     samples.empty()
     st.session_state.messages.append({"role": "user", "content": question})
-    with st.chat_message("user"):
+    with st.chat_message("user", avatar=AVATARS["user"]):
         st.markdown(to_markdown(question))
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant", avatar=AVATARS["assistant"]):
         try:
             st.session_state.messages.append(answer(question))
         except Exception as e:  # keep the chat usable if the API call fails

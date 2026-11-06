@@ -22,6 +22,7 @@ on their own branch and scores it with the same evaluation, so we can compare ap
 | `rag_hybrid_rerank.py` | Heading-aware pipeline with the hybrid retriever, as a script: answers, RAGAS scoring, prompt versions |
 | `guardrails.py` | Responsible-AI checks on every answer: personal email/phone redaction and an LLM groundedness check |
 | `app.py` | Streamlit chat UI on the hybrid + rerank pipeline, with the guardrails applied |
+| `.streamlit/config.toml`, `assets/` | UI theme (UChicago maroon) and the app's own logo. Keys never go in `config.toml` |
 | `rag_eval.py` | Shared evaluation module (RAGAS metrics, saving results, leaderboard) |
 | `eval/testset.json` | Shared test set: 15 in-scope questions with hand-written reference answers, plus 2 out-of-scope questions |
 | `eval/testset_official.json` | The 12 Canvas sample questions DSI staff use to test the bot. Separate from the shared test set |

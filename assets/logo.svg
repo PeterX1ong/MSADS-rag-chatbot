@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="48" viewBox="0 0 300 48">
+  <rect x="0" y="0" width="48" height="48" rx="6" fill="#800000"/>
+  <text x="24" y="31" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#FFFFFF">ADS</text>
+  <text x="60" y="21" font-family="Georgia, 'Times New Roman', serif" font-size="17" font-weight="bold" fill="#800000">MS in Applied Data Science</text>
+  <text x="60" y="40" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5C5C5C" letter-spacing="0.5">PROGRAM ASSISTANT</text>
+</svg>

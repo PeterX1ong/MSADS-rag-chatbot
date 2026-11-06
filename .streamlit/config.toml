@@ -1,0 +1,10 @@
+# UChicago maroon theme. API keys go in .streamlit/secrets.toml (git-ignored), never here.
+[theme]
+base = "light"
+primaryColor = "#800000"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F1EE"
+textColor = "#2B2B2B"
+linkColor = "#800000"
+font = "sans-serif"
+headingFont = "serif"
