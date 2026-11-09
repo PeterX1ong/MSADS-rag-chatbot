@@ -142,8 +142,10 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
 | `heading_aware` | shared | 0.60 | 0.76 | 0.98 | 0.76 | 0.55 |
 | `hybrid_rerank` | shared | 0.73 | 0.77 | 0.98 | 0.76 | 0.55 |
 | `hybrid_rerank_prompt_v2` | shared | 0.85 | 0.77 | 0.97 | 0.67 | 0.50 |
+| `hybrid_rerank_prompt_v3` | shared | 0.76 | 0.79 | 0.95 | 0.66 | 0.55 |
 | `hybrid_rerank_official` | official | 0.94 | 0.93 | 0.97 | 0.80 | 0.64 |
 | `hybrid_rerank_prompt_v2_official` | official | 0.90 | 0.93 | 0.92 | 0.74 | 0.51 |
+| `hybrid_rerank_prompt_v3_official` | official | 0.85 | 0.93 | 0.90 | 0.77 | 0.57 |
 
 - The `_official` runs use a different test set, so compare them only with each other.
 - `v1` stays the default prompt because `v2` didn't score higher. Much of that gap looks like judge noise: nearly
@@ -151,9 +153,11 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
   With this few questions, average two or more runs before choosing between prompts.
 - `v3` is `v1` plus three targeted rules: passages that use different words than the question still count, actions
   such as "Schedule an Appointment" are passed on, and partial answers are given. `v1` refused the official question
-  about an advising appointment even though the admissions-counselor chunk ranked first. With `v3` that question is
-  answered, the other 11 official answers are unchanged, and both out-of-scope questions are still refused (dry runs,
-  no RAGAS judge yet). The app uses `v3`.
+  about an advising appointment on the live app even though the admissions-counselor chunk ranked first. `v3` answers
+  it (`factual_correctness` 0.57 to 0.83 on that question) and still refuses both out-of-scope questions, but its
+  average isn't higher: 0.57 vs. 0.64 on the official set, 0.55 for both on the shared set, and `faithfulness` is
+  lower on both. These are single runs. The app uses `v3` because that question is on the official list; average
+  several runs of `v1` and `v3` before treating either as better.
 
 ## Team workflow
 

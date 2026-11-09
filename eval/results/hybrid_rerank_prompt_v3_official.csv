@@ -1,0 +1,66 @@
+id,question,in_scope,context_precision,context_recall,faithfulness,answer_relevancy,factual_correctness,source_hit,answered,refused,answer,sources
+official_tuition,What is tuition cost for the program?,True,0.9999999999,1.0,1.0,0.6520078342426826,0.83,True,True,False,"Tuition for the MS in Applied Data Science program is $6,384 per course. For the entire program, the total cost is $76,608 for 12 courses or $114,912 for 18 courses. Additionally, there is a non-refundable program enrollment deposit of $1,500, which is credited toward your first quarter’s tuition balance. 
+
+Sources: 
+https://datascience.uchicago.edu/education/tuition-fees-aid/","['https://datascience.uchicago.edu/education/tuition-fees-aid/', 'https://datascience.uchicago.edu/education/tuition-fees-aid/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/']"
+official_scholarships,What scholarships are available for the program?,True,0.49999999995,0.6666666666666666,1.0,0.6244754663369093,0.46,True,True,False,"The MS in Applied Data Science program offers merit-based scholarships, including partial tuition scholarships for top applicants. All eligible applicants are automatically considered for these scholarships upon applying, and it is recommended to submit applications ahead of the early deadline to maximize scholarship chances. 
+
+Sources:
+- https://datascience.uchicago.edu/education/tuition-fees-aid/
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/","['https://datascience.uchicago.edu/education/tuition-fees-aid/', 'https://datascience.uchicago.edu/education/tuition-fees-aid/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/tuition-fees-aid/']"
+official_english_scores,What are the minimum scores for the TOEFL and IELTS English Language Requirement?,True,0.99999999995,1.0,1.0,0.5948395397327115,1.0,True,True,False,"The minimum scores for the English Language Requirement for the Master’s in Applied Data Science program are as follows: TOEFL: 102 (prior requirement) or 5 (current requirement; no subscore requirement); IELTS: 7 (no subscore requirement). 
+
+Sources: 
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/']"
+official_fee_waiver,Is there an application fee waiver?,True,0.9999999999,1.0,0.5,0.985172125863215,0.5,True,True,False,"Yes, there is an application fee waiver available. For questions regarding an application fee waiver, please refer to the Physical Sciences Division fee waiver policy. 
+
+Sources: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/']"
+official_in_person_deadlines,What are the deadlines for the in-person program?,True,0.99999999995,1.0,1.0,0.772364719834174,0.92,True,True,False,"The deadlines for the in-person MS in Applied Data Science program are as follows:
+
+- November 9, 2026 – First Priority Application Deadline
+- December 7, 2026 – Second Priority Application Deadline
+- January 26, 2027 – International Application Deadline (requiring visa sponsorship from UChicago)
+- March 4, 2027 – Third Priority Application Deadline
+- May 6, 2027 – Fourth Priority Application Deadline
+- June 23, 2027 – Final Application Deadline
+
+Application decisions are released approximately 1 to 2 months after each respective deadline. 
+
+Sources: 
+https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/']"
+official_decision_timing,How long will it take for me to receive a decision on my application?,True,0.999999999975,0.5,1.0,0.42431140149195307,0.0,True,True,False,"Admissions decisions for the Master's in Applied Data Science are typically released 1-2 months after each application deadline. Your application must be complete to be considered for review. 
+
+Sources: 
+https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/events-deadlines/']"
+official_advising_appointment,Can I set up an advising appointment with the enrollment management team?,True,0.3333333333,1.0,0.8333333333333334,0.8823147685068241,0.83,True,True,False,"Yes, you can schedule an appointment with the enrollment management team. For the In-Person Program, you can reach out to Matthew Harris-Ridker, the Assistant Director of Enrollment Management. For the Online Program, you can contact Patrick Vonesh, the Senior Assistant Director of Enrollment Management. 
+
+You can find more details about scheduling an appointment on the program's website. 
+
+Sources: 
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/","['https://datascience.uchicago.edu/people/nick-diantonio-m-ed/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/instructors-staff/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/people/daniel-truesdale/']"
+official_transcript_mailing,Where can I mail my official transcripts?,True,0.5833333333041666,1.0,1.0,0.6717289873403133,0.44,True,True,False,"You can mail your official transcripts to the following address:
+
+The University of Chicago  
+Attention: MS in Applied Data Science Admissions  
+455 N Cityfront Plaza Dr., Suite 2800  
+Chicago, Illinois 60611  
+
+Make sure the documents are in their original, school-sealed envelope. If they are not, they will be considered unofficial. Additionally, if your transcript does not list degree conferral information, you will need to include an attested copy of your degree certificate. 
+
+Sources: 
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/']"
+official_online_visa,Does the Master's in Applied Data Science Online program provide visa sponsorship?,True,0.999999999975,1.0,0.5,0.9999995684809274,0.33,True,True,False,"No, the Master's in Applied Data Science Online program does not provide visa sponsorship. Sources: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/how-to-apply/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/']"
+official_mba_ms,How do I apply to the MBA/MS program?,True,0.8333333332916666,1.0,1.0,0.8477635898534909,0.83,True,True,False,"To apply to the MBA/MS joint degree program, you will need to go through Booth’s centralized, joint-application process. Complete the Chicago Booth Full-Time MBA application and select the MBA/MS in Applied Data Science as your program of interest. Additionally, you will need to fill out an MBA/MS program supplement within your Booth application, which includes Applied Data Science specific questions that will be reviewed by the admissions team along with your full Booth application. Ensure that you complete both the MBA application and the joint degree program supplement in the same application round before submitting.
+
+Sources: https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/']"
+official_stem_opt,Is the MS in Applied Data Science program STEM/OPT eligible?,True,0.9999999999666667,1.0,1.0,0.833405271387062,0.67,True,True,False,"Yes, the full-time, in-person Master’s in Applied Data Science program is listed as a STEM-designated degree by the U.S. Department of Homeland Security for the purposes of the STEM OPT extension, allowing eligible students to apply. However, approval of STEM OPT is at the discretion of U.S. Citizenship & Immigration Services. 
+
+Sources: 
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/
+- https://datascience.uchicago.edu/education/masters-programs/in-person-program/","['https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/in-person-program/', 'https://datascience.uchicago.edu/education/masters-programs/in-person-program/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/international-students/']"
+official_course_count,How many courses must you complete to earn UChicago's Master's in Applied Data Science?,True,0.9999999999,1.0,1.0,0.9629222941954615,0.0,True,True,False,"To earn UChicago's Master's in Applied Data Science, you must complete 12 courses in the 1-year program or 18 courses in the 2-year thesis track program. 
+
+Sources: 
+- https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/","['https://datascience.uchicago.edu/education/masters-programs/online-program/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/', 'https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science/faqs/']"
