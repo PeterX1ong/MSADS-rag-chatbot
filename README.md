@@ -51,8 +51,8 @@ on their own branch and scores it with the same evaluation, so we can compare ap
    ```bash
    streamlit run app.py
    ```
-   The first run embeds the chunks if `chroma_db/` doesn't match them. The app uses prompt `v3` by default;
-   `RAG_PROMPT=v1` or `v2` switches it.
+   The first run embeds the chunks if `chroma_db/` doesn't match them. The app uses prompt `v4` by default;
+   `RAG_PROMPT=v1`, `v2`, or `v3` switches it.
 
 ## Deployment
 
@@ -156,8 +156,22 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
   about an advising appointment on the live app even though the admissions-counselor chunk ranked first. `v3` answers
   it (`factual_correctness` 0.57 to 0.83 on that question) and still refuses both out-of-scope questions, but its
   average isn't higher: 0.57 vs. 0.64 on the official set, 0.55 for both on the shared set, and `faithfulness` is
-  lower on both. These are single runs. The app uses `v3` because that question is on the official list; average
-  several runs of `v1` and `v3` before treating either as better.
+  lower on both. These are single runs.
+- `v4` is `v1` plus only a wording rule, with no example taken from a test question, and it's the prompt the app uses.
+  On the advising-appointment question, repeated 20 times with the same four passages retrieved, `v1` refused 17 times
+  and `v4` refused 0 times. Means of 3 RAGAS runs (`eval/run_copies/` holds runs 2 and 3):
+
+  | Prompt | Test set | `context_precision` | `context_recall` | `faithfulness` | `answer_relevancy` | `factual_correctness` (range) |
+  |---|---|---|---|---|---|---|
+  | `v1` | shared | 0.73 | 0.76 | 0.98 | 0.75 | 0.53 (0.51–0.55) |
+  | `v4` | shared | 0.78 | 0.77 | 0.93 | 0.76 | 0.54 (0.54–0.54) |
+  | `v1` | official | 0.90 | 0.93 | 0.97 | 0.77 | 0.55 (0.50–0.65) |
+  | `v4` | official | 0.88 | 0.93 | 0.87 | 0.80 | 0.50 (0.49–0.51) |
+
+  `factual_correctness` can't separate them, given `v1`'s 0.15 spread across three identical official runs. `v4` costs
+  `faithfulness`. Part of that is formatting: when the model writes "Sources:" mid-paragraph instead of on its own
+  line, the URL is judged as an unsupported claim (`v4` did this on 13 of 81 answers, `v1` on 3 of 80). The rest
+  includes a real overclaim on the fee-waiver question. `v3` has only one run, so it isn't compared here.
 
 ## Team workflow
 
