@@ -14,7 +14,7 @@ import re
 import streamlit as st
 from dotenv import load_dotenv
 
-PROMPT_VERSION = os.getenv("RAG_PROMPT", "v4")  # v4 = v1 + one wording rule; see the README for the scores
+PROMPT_VERSION = os.getenv("RAG_PROMPT", "v1")  # see the README for why v1 stayed the default
 PII_HOLDBACK = 40  # chars held back while streaming, so a half-written email or phone number is never on screen
 SAMPLE_QUESTIONS = [
     "How much is tuition for the program?",

@@ -51,8 +51,8 @@ on their own branch and scores it with the same evaluation, so we can compare ap
    ```bash
    streamlit run app.py
    ```
-   The first run embeds the chunks if `chroma_db/` doesn't match them. The app uses prompt `v4` by default;
-   `RAG_PROMPT=v1`, `v2`, or `v3` switches it.
+   The first run embeds the chunks if `chroma_db/` doesn't match them. The app uses prompt `v1` by default;
+   `RAG_PROMPT=v2`, `v3`, or `v4` switches it.
 
 ## Deployment
 
@@ -157,9 +157,12 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
   it (`factual_correctness` 0.57 to 0.83 on that question) and still refuses both out-of-scope questions, but its
   average isn't higher: 0.57 vs. 0.64 on the official set, 0.55 for both on the shared set, and `faithfulness` is
   lower on both. These are single runs.
-- `v4` is `v1` plus only a wording rule, with no example taken from a test question, and it's the prompt the app uses.
-  On the advising-appointment question, repeated 20 times with the same four passages retrieved, `v1` refused 17 times
-  and `v4` refused 0 times. Means of 3 RAGAS runs (`eval/run_copies/` holds runs 2 and 3):
+- `v4` is `v1` plus only a wording rule, with no example taken from a test question. We tried it as the default and
+  went back to `v1`. The advising-appointment question was repeated 20 times per prompt in two separate batches with
+  the same code: `v1` refused 17 and then 0 times, and `v4` refused 0 and then 10 times. In the second batch `v4`
+  refused all 10 times the admissions-counselor chunk ranked third and none of the 10 times it ranked first. The
+  refusal isn't stable, so one batch of repeats can't decide between prompts. Means of 3 RAGAS runs
+  (`eval/run_copies/` holds runs 2 and 3):
 
   | Prompt | Test set | `context_precision` | `context_recall` | `faithfulness` | `answer_relevancy` | `factual_correctness` (range) |
   |---|---|---|---|---|---|---|
@@ -169,7 +172,7 @@ python rag_hybrid_rerank.py --prompt v2   # revised generation prompt -> hybrid_
   | `v4` | official | 0.88 | 0.93 | 0.87 | 0.80 | 0.50 (0.49–0.51) |
 
   `factual_correctness` can't separate them, given `v1`'s 0.15 spread across three identical official runs. `v4` costs
-  `faithfulness`. Part of that is formatting: when the model writes "Sources:" mid-paragraph instead of on its own
+  `faithfulness`, which is why the app uses `v1`. Part of that is formatting: when the model writes "Sources:" mid-paragraph instead of on its own
   line, the URL is judged as an unsupported claim (`v4` did this on 13 of 81 answers, `v1` on 3 of 80). The rest
   includes a real overclaim on the fee-waiver question. `v3` has only one run, so it isn't compared here.
 
